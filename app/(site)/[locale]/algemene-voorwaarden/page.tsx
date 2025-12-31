@@ -14,10 +14,10 @@ export async function generateMetadata({ params }: AlgemeneVoorwaardenPageProps)
     notFound();
   }
 
-  const messages = getMessages(locale as any);
+  const messages = getMessages(locale as any) as any;
   const title = locale === 'nl' 
-    ? messages.algemeneVoorwaarden?.title || 'Algemene Voorwaarden'
-    : messages.terms?.title || 'Terms and Conditions';
+    ? (messages as any).algemeneVoorwaarden?.title || 'Algemene Voorwaarden'
+    : (messages as any).terms?.title || 'Terms and Conditions';
   
   return {
     title: `${title} - Pro Coach Mastery`,
@@ -38,13 +38,13 @@ export default async function AlgemeneVoorwaardenPage({ params }: AlgemeneVoorwa
     notFound();
   }
 
-  const messages = getMessages(locale as any);
+  const messages = getMessages(locale as any) as any;
   const content = locale === 'nl' 
-    ? messages.algemeneVoorwaarden?.content || ''
-    : messages.terms?.content || '';
+    ? (messages as any).algemeneVoorwaarden?.content || ''
+    : (messages as any).terms?.content || '';
   const title = locale === 'nl'
-    ? messages.algemeneVoorwaarden?.title || 'Algemene Voorwaarden'
-    : messages.terms?.title || 'Terms and Conditions';
+    ? (messages as any).algemeneVoorwaarden?.title || 'Algemene Voorwaarden'
+    : (messages as any).terms?.title || 'Terms and Conditions';
 
   return (
     <section className="bg-white section-padding">

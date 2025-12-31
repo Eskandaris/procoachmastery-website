@@ -4,13 +4,13 @@ import { getMessages, Locale } from '@/lib/i18n';
 interface StartLayoutProps {
   children: React.ReactNode;
   params: Promise<{
-    locale: Locale;
+    locale: string;
   }>;
 }
 
 export async function generateMetadata({ params }: StartLayoutProps): Promise<Metadata> {
   const { locale } = await params;
-  const messages = getMessages(locale);
+  const messages = getMessages(locale as Locale);
   
   return {
     title: messages.start.title,

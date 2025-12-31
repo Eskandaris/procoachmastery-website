@@ -54,7 +54,7 @@ async function addContactToBrevo(
 
     // Add note as attribute if provided
     if (note) {
-      createContact.attributes.NOTE = note;
+      (createContact.attributes as any).NOTE = note;
     }
 
     // Add tags
@@ -89,7 +89,7 @@ async function addContactToBrevo(
     if (tags.length > 0) {
       try {
         const updateContact = new brevo.UpdateContact();
-        updateContact.tags = tags;
+        (updateContact as any).tags = tags;
         await client.updateContact(email, updateContact);
       } catch (tagError) {
         console.error('Error adding tags to contact:', tagError);
@@ -110,9 +110,9 @@ async function addContactToBrevo(
           LASTNAME: name.trim().split(' ').slice(1).join(' ') || '',
         };
         if (note) {
-          updateContact.attributes.NOTE = note;
+          (updateContact.attributes as any).NOTE = note;
         }
-        updateContact.tags = ['waitlist', 'website', ...(consent ? ['marketing-consent'] : [])];
+        (updateContact as any).tags = ['waitlist', 'website', ...(consent ? ['marketing-consent'] : [])];
         
         await client.updateContact(email, updateContact);
         console.log(`Contact ${email} updated in Brevo`);

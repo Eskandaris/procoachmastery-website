@@ -38,11 +38,11 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
     notFound();
   }
 
-  const messages = getMessages(locale as any);
-  const content = messages.privacy?.content || '';
+  const messages = getMessages(locale as any) as any;
+  const content = (messages as any).privacy?.content || '';
   const title = locale === 'nl'
-    ? messages.privacy?.title || 'Privacyverklaring'
-    : messages.privacy?.title || 'Privacy Policy';
+    ? (messages as any).privacy?.title || 'Privacyverklaring'
+    : (messages as any).privacy?.title || 'Privacy Policy';
 
   return (
     <section className="bg-white section-padding">

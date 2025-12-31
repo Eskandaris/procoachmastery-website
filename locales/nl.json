@@ -1,0 +1,443 @@
+{
+  "nav": {
+    "home": "home",
+    "programma": "programma",
+    "over": "over",
+    "contact": "contact",
+    "cta": "Meld je aan"
+  },
+    "hero": {
+      "title": "Word internationaal erkend coach. Slimmer, sneller, betaalbaarder dan ooit.",
+      "subtitle": "Leer coachen met realistische AI-avatars én echte cliënten. Bouw direct je portfolio op voor EMCC-certificering – betaalbaar, flexibel en effectief.",
+      "primaryCta": "Meld je aan",
+      "secondaryCta": "Bekijk hoe het werkt"
+    },
+  "benefits": {
+    "title": "Wat dit programma jou biedt",
+    "slimmer": {
+      "title": "Slimmer leren",
+      "description": "AI die jou leert kennen en laat groeien"
+    },
+    "sneller": {
+      "title": "Sneller groeien",
+      "description": "Van start tot certificering op jouw tempo"
+    },
+    "persoonlijk": {
+      "title": "Persoonlijk afgestemd",
+      "description": "De opleiding past zich aan jou aan, niet andersom"
+    },
+    "erkend": {
+      "title": "Erkend resultaat",
+      "description": "Leren volgens internationale standaarden (EMCC)"
+    },
+    "toegankelijk": {
+      "title": "Bewezen kwaliteit",
+      "description": "Ontwikkeld door psycholoog met jarenlange expertise als coachopleider"
+    },
+    "betaalbaar": {
+      "title": "Betaalbaar pad",
+      "description": "Een fractie van de prijs van traditionele opleidingen"
+    }
+  },
+  "results": {
+    "title": "Wat jij bereikt met dit programma",
+    "zekerheid": "Zekerheid in je coachgesprekken door tientallen uren praktijk met avatars én cliënten.",
+    "portfolio": "Een volledig portfolio dat je direct kunt gebruiken voor internationale certificering.",
+    "vrijheid": "Vrijheid om te groeien, op jouw manier — zonder wachtlijsten, reistijd of groepsdruk."
+  },
+  "testimonials": {
+    "title": "Wat deelnemers zeggen",
+    "lisa": {
+      "name": "Lisa, HR-manager",
+      "quote": "Ik had nooit gedacht dat oefenen met een AI zo echt zou voelen. Het gaf me de moed om met echte cliënten te werken."
+    },
+    "karim": {
+      "name": "Karim, zelfstandig coach",
+      "quote": "Het portfolio dat ik tijdens de opleiding heb opgebouwd was precies wat ik nodig had om EMCC Practitioner aan te vragen."
+    },
+    "sophie": {
+      "name": "Sophie, teamcoach",
+      "quote": "De vrijheid om te leren wanneer ik wil, gecombineerd met echte cliënten in de tweede fase, gaf me een vliegende start als coach."
+    }
+  },
+  "authority": {
+    "title": "De wereld verandert, en leren veranderen verandert mee",
+    "description": "Waar coachopleidingen vroeger traag, duur en locatiegebonden waren, maakt Pro Coach Mastery professioneel leren coachen toegankelijk voor iedereen. Dankzij AI krijg je niet zomaar feedback, maar intelligente begeleiding die zich aan jou aanpast.",
+    "solution": "Je oefent niet alleen met AI, maar ook met levensechte cliënten. Je ontwikkelt je eigen stijl en bouwt een portfolio op dat voldoet aan de eisen van internationale beroepsverenigingen zoals EMCC. Geen wachtlijsten, geen reistijd, geen groepsdruk — alleen jij, je groei, en een leermeester die jou begrijpt.",
+    "standards": "Gebaseerd op internationale standaarden (EMCC)",
+    "portfolio": "Portfolio direct bruikbaar voor certificering",
+    "experience": "Ontwikkeld uit decennia ervaring in psychologie en coaching"
+  },
+  "finalCta": {
+    "title": "Zo wordt leren coachen wat het altijd had moeten zijn",
+    "description": "Persoonlijk, professioneel en vrij. Professioneel leren coachen — op jouw tempo, op jouw manier, met de kwaliteit van de wereldstandaard.",
+    "primaryCta": "Meld je aan",
+    "secondaryCta": "Bekijk hoe het werkt"
+  },
+  "waitlist": {
+    "title": "Schrijf je in voor de wachtlijst",
+    "description": "Word erkend coach – met AI als leermeester. Schrijf je in voor de wachtlijst en word als eerste geïnformeerd.",
+    "name": "Naam",
+    "email": "E-mail",
+    "note": "Opmerking (optioneel)",
+    "consent": "Ik geef toestemming om per e-mail updates te ontvangen. <a href=\"/nl/algemene-voorwaarden\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline font-semibold\">Algemene voorwaarden</a>",
+    "submit": "Inschrijven",
+    "successTitle": "Je staat op de wachtlijst!",
+    "successBody": "Dank je wel. We houden je op de hoogte.",
+    "nameRequired": "Naam is verplicht",
+    "emailRequired": "E-mail is verplicht",
+    "emailInvalid": "Voer een geldig e-mailadres in",
+    "consentRequired": "Je moet toestemming geven om updates te ontvangen"
+  },
+    "programma": {
+      "hero": {
+        "title": "Leer coachen. Slimmer, sneller, persoonlijker. Volledig online, volgens internationale standaarden.",
+        "subtitle": "De eerste AI-gedreven coachopleiding die je voorbereidt op internationale certificering (EMCC). Train met realistische AI-avatars, bouw je portfolio op met echte cliënten en groei uit tot een gecertificeerde professional.",
+        "primaryCta": "Meld je aan",
+        "secondaryCta": "Zie de prijzen"
+      },
+    "intro": {
+      "title": "Een opleiding die jou leert kennen",
+      "description1": "Die zich aanpast aan jouw groei. En die leidt tot internationale erkenning. Coachen leer je niet uit een boek — je leert het door te doen.",
+      "description2": "Daarom combineert het Pro Coach Mastery de intelligentie van AI met echte praktijkervaring. Slimmer door intelligente begeleiding. Sneller door directe oefening en reflectie. Persoonlijker door maatwerk dat zich aan jou aanpast.",
+      "cta": "Bekijk programma"
+    },
+    "advantages": {
+      "title": "Waarom kiezen voor PCMP",
+      "online": "Volledig online en flexibel",
+      "onlineDesc": "Studeer waar en wanneer je wilt.",
+      "avatars": "Levensechte AI-avatars",
+      "avatarsDesc": "Oefen gesprekken die voelen als de echte praktijk.",
+      "portfolio": "Klaar voor certificering",
+      "portfolioDesc": "Met jouw portfolio vraag je certificering aan op het door jou gewenste niveau.",
+      "aligned": "Volgens de standaarden van EMCC",
+      "alignedDesc": "Leer volgens de internationale standaarden van het vak.",
+      "phases": "Groeipad in twee fasen",
+      "phasesDesc": "Van basiscompetenties naar professioneel meesterschap.",
+      "feedback": "Directe feedback",
+      "feedbackDesc": "Weet na elk gesprek precies wat je goed doet en waar je groeit."
+    },
+    "pathway": {
+      "title": "Een duidelijke route naar jouw certificering",
+      "training": {
+        "title": "Professional Coach Training",
+        "description": "Allereerst leer je alle kernvaardigheden van professioneel coachen in een veilige digitale omgeving. Dankzij levensechte avatars oefen je gesprekken, ontvang je directe feedback en ontwikkel je stap voor stap je coachcompetenties."
+      },
+      "certification": {
+        "title": "Professional Coach Certification Program",
+        "description": "Vervolgens werk je met echte cliënten, doe je praktijkervaring op, vul je jouw portfolio aan met reflecties en supervisie, en bereid je je concreet voor op certificering bij de internationale beroepsvereniging voor coaches op het voor jou passend niveau."
+      },
+      "disclaimer": "Let op, wij certificeren niet zelf. Na Pro Coach Mastery Program kan je direct <a href=\"https://accreditation.emccshop.org/product-category/eia\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline font-semibold\">EMCC certificering aanvragen</a> voor het door jou gewenste niveau als professional coach.",
+      "cta": "Bekijk het programma in detail"
+    },
+    "pillars": {
+      "title": "De 8 pijlers van professioneel meesterschap",
+      "pillar1": {
+        "title": "Zelfinzicht",
+        "goal": "Je kent je waarden, overtuigingen en patronen, werkt grenzen en rolhelder uit en stemt je handelen af op context en doelen van cliënt/sponsor.",
+        "modules": [
+          "Coachende mindset & zelfbewustzijn",
+          "Aanwezigheid in het moment",
+          "Ethisch & professioneel handelen"
+        ],
+        "result": "Stabiele professionele presence, congruentie en ethische sensitiviteit."
+      },
+      "pillar2": {
+        "title": "Toewijding aan professionele ontwikkeling",
+        "goal": "Je verbetert continu je vakmanschap via reflectie, feedback, supervisie en evidence-based werken.",
+        "modules": [
+          "Kwaliteitsontwikkeling & reflectie",
+          "Ethisch & professioneel handelen"
+        ],
+        "result": "Aantoonbare groei in competenties en een duurzaam leer- en reflectieritme."
+      },
+      "pillar3": {
+        "title": "Contractmanagement",
+        "goal": "Je maakt verwachtingen, doelen, rollen en grenzen expliciet en onderhoudt het contract door de coaching heen.",
+        "modules": [
+          "Contracteren & structureren van het proces",
+          "Context-, systeem- & organisatiedimensie"
+        ],
+        "result": "Helderheid en voortgang door goed gecontracteerde doelen, evaluatiemomenten en hercontracteren."
+      },
+      "pillar4": {
+        "title": "Relatieopbouw",
+        "goal": "Je bouwt een veilige, gelijkwaardige werkrelatie met aandacht voor vertrouwen, macht/dynamiek en culturele sensitiviteit.",
+        "modules": [
+          "Vertrouwen, veiligheid & gelijkwaardigheid",
+          "Actief luisteren & geavanceerde waarneming",
+          "Diversiteit, macht & conflict hanteren"
+        ],
+        "result": "Psychologische veiligheid en effectieve werkalliantie."
+      },
+      "pillar5": {
+        "title": "Inzicht & leren faciliteren",
+        "goal": "Je ontlokt inzicht, perspectiefwisseling en betekenisverlening die daadwerkelijk tot leren leidt.",
+        "modules": [
+          "Bewustzijn & leren evoceren",
+          "Actief luisteren & geavanceerde waarneming"
+        ],
+        "result": "Merkbare toename in zelfinzicht en leeropbrengst van sessies."
+      },
+      "pillar6": {
+        "title": "Resultaat- & actiegericht werken",
+        "goal": "Je vertaalt inzicht naar haalbare doelen, experimenten en gedragsverandering; je borgt transfer naar praktijk.",
+        "modules": [
+          "Groei, actie & verankering",
+          "Contracteren & structureren van het proces"
+        ],
+        "result": "Concreet gedrag, zichtbare resultaten en geborgde verandering."
+      },
+      "pillar7": {
+        "title": "Gebruik van modellen & technieken",
+        "goal": "Je kiest en hanteert passende modellen, interventies en communicatieve technieken afgestemd op doel en context.",
+        "modules": [
+          "Modellen, methoden & technieken",
+          "Context-, systeem- & organisatiedimensie"
+        ],
+        "result": "Doelgerichte, situationeel passende interventies die leren versnellen."
+      },
+      "pillar8": {
+        "title": "Evaluatie",
+        "goal": "Je meet effectiviteit, monitort voortgang en bouwt aan een cultuur van evalueren.",
+        "modules": [
+          "Kwaliteitsontwikkeling & reflectie",
+          "Groei, actie & verankering"
+        ],
+        "result": "Transparante outcome-meting, sterke portfolio-evidence en continue verbetering."
+      }
+    },
+    "workflow": {
+      "title": "Zo werkt professional coach worden met AI in de praktijk",
+      "step1": {
+        "title": "Stap 1: Professional Coach Training",
+        "features": [
+          "Realistische gesprekken met AI-avatars",
+          "Twee-pane viewer: links je opdrachten, rechts je gesprek",
+          "Directe, objectieve feedback",
+          "Automatische opslag in je portfolio"
+        ]
+      },
+      "step2": {
+        "title": "Stap 2: Professional Coach Certification Program",
+        "features": [
+          "Begeleiding bij portfolio-opbouw",
+          "Werken met echte cliënten",
+          "Reflecties, verslagen & supervisie",
+          "Persoonlijke begeleiding en voorbereiding op certificering"
+        ]
+      }
+    },
+    "certification": {
+      "title": "Voorbereid op internationale certificering",
+      "description": "Na afronding van Professional Coach Training beheers je de kernvaardigheden van coaching. Na Professional Coach Certification Program beschik je over een volledig portfolio met alles wat nodig is voor certificering bij EMCC.<br /><br />Hieronder kun je de <a href=\"#pricing\" class=\"text-primary hover:underline font-semibold\">prijzen</a> zien. Daarnaast heb je nog kosten aan de zelf te organiseren supervisie (ongeveer €200), certificering bij EMCC (ongeveer €200) en lidmaatschap EMCC (€150 per jaar).",
+      "features": [
+        "Volledig portfolio conform internationale richtlijnen",
+        "Praktijkervaring met echte cliënten",
+        "Bekwaam en klaar voor certificering"
+      ]
+    },
+    "socialProof": {
+      "title": "Wat deelnemers zeggen",
+      "anna": {
+        "name": "Anna, trainee coach",
+        "quote": "De avatars waren zo realistisch dat ik vergat dat het geen echte cliënten waren."
+      },
+      "david": {
+        "name": "David, loopbaancoach",
+        "quote": "Het portfolio uit Professional Coach Certification Program was precies wat ik nodig had om EMCC Practitioner aan te vragen."
+      },
+      "sophie": {
+        "name": "Sophie, teamcoach",
+        "quote": "De combinatie van eigen tempo in Professional Coach Training en echte cliënten in Professional Coach Certification Program gaf me een vliegende start."
+      }
+    },
+    "practical": {
+      "title": "Alles wat je moet weten",
+      "duration": {
+        "label": "Duur",
+        "value": "Gemiddeld 6–12 maanden (3–6 per fase)"
+      },
+      "access": {
+        "label": "Toegang",
+        "value": "Direct na betaling, volledig online"
+      },
+      "language": {
+        "label": "Taal",
+        "value": "Nederlands of Engels"
+      },
+      "requirements": {
+        "label": "Instroomeisen",
+        "value": "Geen specifieke vooropleiding, wel motivatie en basisniveau Engels/Nederlands"
+      },
+      "support": {
+        "label": "Support",
+        "value": "24/7 via mail of contactformulier"
+      },
+      "supervision": {
+        "label": "Supervisie",
+        "value": "Zelf te organiseren (extra kosten)"
+      }
+    },
+    "pricing": {
+      "title": "Kies jouw route",
+      "training": {
+        "title": "Professional Coach Training",
+        "description": "Alle modules, AI-avatars en feedback, zodat je de kernbekwaamheden van professioneel coachen eigen maakt.",
+        "price": "€ 1.800",
+        "introPrice": "€750,-",
+        "introPriceLabel": "Introductieprijs",
+        "cta": "Schrijf je in"
+      },
+      "certification": {
+        "title": "Professional Coach Certification Program",
+        "description": "Alles van Professional Coach Training, plus AI begeleiding bij coaching van echte clienten en portfolio-opbouw voor cerficering bij EMCC.",
+        "price": "€ 3.000",
+        "introPrice": "€1250,-",
+        "introPriceLabel": "Introductieprijs",
+        "cta": "Schrijf je in",
+        "badge": "Meest populair"
+      },
+      "disclaimer": "* Zie Inschrijven voor actuele prijzen."
+    },
+    "finalCta": {
+      "title": "De eerste AI-gedreven coachopleiding met directe route naar internationale certificering",
+      "description": "Met de intelligentie van AI, de diepte van echte gesprekken en de vrijheid van leren op jouw manier. Start vandaag.",
+      "primaryCta": "Meld je aan",
+      "secondaryCta": "Neem contact op"
+    }
+  },
+  "over": {
+    "hero": {
+      "title": "Je wilt mensen helpen. Wij helpen jou dat professioneel te doen",
+      "subtitle": "Snel, slim en erkend. Een haalbare weg die praktisch, erkend en betekenisvol is.",
+      "cta": "Meld je aan"
+    },
+    "recognition": {
+      "title": "Herken je dit?",
+      "situation1": "Je voelt dat je meer in je gesprekken wilt betekenen, maar mist structuur en vaardigheden.",
+      "situation2": "Je wilt serieus werk maken van coaching, maar de hoge kosten en wachttijden van traditionele opleidingen houden je tegen.",
+      "situation3": "Je zoekt een opleiding die niet alleen theorie biedt, maar je écht voorbereidt op de praktijk en internationale certificering."
+    },
+    "desire": {
+      "title": "Wat je eigenlijk zoekt",
+      "description": "Diep vanbinnen verlang je naar:",
+      "vakmanschap": "Vakmanschap – met vertrouwen en bekwaamheid coachgesprekken voeren.",
+      "erkenning": "Erkenning – een opleiding die je voorbereidt op EMCC-certificering.",
+      "weg": "Een haalbare weg – betaalbaar, flexibel en passend bij jouw leven nu."
+    },
+    "solution": {
+      "title": "Waarom ik dit doe",
+      "training": {
+        "title": "Levensechte training",
+        "description": "Levensechte training: oefenen met AI-avatars die reageren als echte cliënten."
+      },
+      "portfolio": {
+        "title": "Portfolio-opbouw",
+        "description": "Portfolio-opbouw: alles wat je nodig hebt om je certificering aan te vragen."
+      },
+      "practice": {
+        "title": "Stap naar de praktijk",
+        "description": "Stap naar de praktijk: begeleiding bij het coachen van oefencliënten door jouw AI trainer."
+      }
+    },
+    "founder": {
+      "title": "Waarom ik dit doe",
+      "description1": "Ik ben Alexander, psycholoog.",
+      "description2": "Al tientallen jaren werk ik als psycholoog, coach en voornamelijk als coachopleider – en weet daardoor wat werkt, en wat niet.",
+      "description3": "Ik schreef een managementboek over geluk en publiceerde veertien artikelen in vakbladen over coaching en ontwikkeling van mens en organisatie. Alles wat ik geleerd heb, bundel ik in dit programma – zodat jouw ontwikkeling als coach en als mens naar het hoogste niveau wordt getild."
+    },
+    "results": {
+      "title": "Wat dit jou oplevert",
+      "zekerheid": "Zekerheid in je gesprekken door tientallen uren praktijk met avatars én cliënten.",
+      "portfolio": "Een volledig portfolio dat aansluit bij EMCC-standaarden.",
+      "weg": "Een haalbare, betaalbare en betekenisvolle weg naar een toekomst als erkend coach."
+    },
+    "finalCta": {
+      "title": "Zo wordt leren coachen wat het altijd had moeten zijn",
+      "description": "Persoonlijk, professioneel en vrij. Je ontwikkelt jezelf tot iemand die daadwerkelijk impact maakt in het leven van anderen.",
+      "primaryCta": "Meld je aan",
+      "secondaryCta": "Bekijk hoe het werkt"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Heb je vragen? Neem gerust contact op.",
+      "subtitle": "Bijvoorbeeld als je een technische vraag hebt, of meer wilt weten over hoe de certificering bij de internationale beroepsverenigingen werkt."
+    },
+    "form": {
+      "title": "Stel je vraag",
+      "name": "Naam",
+      "namePlaceholder": "Je volledige naam",
+      "email": "E-mail",
+      "emailPlaceholder": "je@emailadres.nl",
+      "message": "Bericht",
+      "messagePlaceholder": "Vertel ons waar we je mee kunnen helpen...",
+      "submit": "Verzenden",
+      "success": "Dank voor je bericht, we reageren zo snel mogelijk.",
+      "nameRequired": "Naam is verplicht",
+      "emailRequired": "E-mail is verplicht",
+      "emailInvalid": "Voer een geldig e-mailadres in",
+      "messageRequired": "Bericht is verplicht"
+    },
+    "info": {
+      "title": "Contact",
+      "company": "International Coach Academy",
+      "address": "Tasmanstraat 131",
+      "postal": "2518 VM Den Haag",
+      "kvk": "KvK 98840126",
+      "email": "info@procoachmastery.com"
+    }
+  },
+  "footer": {
+    "column1": {
+      "title": "Pro Coach Mastery",
+      "description": "De eerste volledig AI-gedreven coachopleiding met officiële route naar internationale certificering.",
+      "copyright": "© {{CURRENT_YEAR}} Pro Coach Mastery. Alle rechten voorbehouden."
+    },
+    "column2": {
+      "title": "Contact",
+      "company": "International Coach Academy",
+      "address": "Tasmanstraat 131",
+      "postal": "2518 VM Den Haag",
+      "email": "info@procoachmastery.com"
+    },
+    "column3": {
+      "title": "Informatie",
+      "kvk": "KvK 98840126",
+      "terms": "Algemene voorwaarden",
+      "privacy": "Privacy",
+      "login": "Inloggen voor leden"
+    }
+  },
+  "algemeneVoorwaarden": {
+    "title": "Algemene Voorwaarden",
+    "content": "ALGEMENE VOORWAARDEN PRO COACH MASTERY (PCM)\n\nVersie 1.2 – 30-12-2025\n\nOnderneming: ICA Netherlands B.V.\nKvK: 98840126\nBTW-id: NL868665691B01\nAdres: Tasmanstraat 131, 2518VM Den Haag, Nederland\nE-mail: info@procoachmastery.com\nWebsite/Platform: procoachmastery.com en/of het bijbehorende leerplatform\n\nDeze algemene voorwaarden zijn opgesteld voor levering aan consumenten (B2C). Dwingend consumentenrecht blijft altijd van toepassing.\n\nArtikel 1 – Definities\nIn deze voorwaarden wordt verstaan onder:\nPCM: ICA Netherlands B.V., handelend onder de naam Pro Coach Mastery.\nDeelnemer/Jij: de natuurlijke persoon (18+) die de opleiding afneemt voor doeleinden buiten zijn/haar bedrijfs- of beroepsactiviteit.\nOvereenkomst: de overeenkomst op afstand tussen PCM en Deelnemer betreffende deelname aan de Opleiding.\nOpleiding: de online coachopleiding van PCM, geleverd via het Platform en bestaande uit digitale leerinhoud (modules), AI-functionaliteiten (o.a. AI-avatar) en portfolio-assessments, zoals omschreven in het Aanbod.\nPlatform: de digitale leeromgeving van PCM (of namens PCM) waarin de Opleiding wordt aangeboden.\nAanbod: de productpagina/checkout-omschrijving die gold op het moment van bestelling.\nProducten: Pro Coach Mastery Training en Pro Coach Mastery Program (zoals in het Aanbod omschreven).\nAI-functionaliteit: (semi)geautomatiseerde functies die feedback, rolspel, scoring, suggesties en/of (concept)beoordelingen kunnen genereren.\nAI-minuut: een door PCM gemeten gebruikseenheid voor AI-functionaliteit.\nGetuigschrift: het deelname-/afrondingsbewijs dat PCM kan verstrekken op basis van de criteria in het Aanbod/Platform.\nEMCC: European Mentoring and Coaching Council of een opvolgende/gelieerde organisatie die (extern) certificering/erkenning kan aanbieden.\n\nArtikel 2 – Toepasselijkheid\nDeze voorwaarden zijn van toepassing op ieder Aanbod en iedere Overeenkomst tussen PCM en Deelnemer.\nAfwijkingen gelden alleen indien PCM deze uitdrukkelijk schriftelijk bevestigt.\nIndien een bepaling nietig of vernietigbaar is, blijven de overige bepalingen in stand. PCM zal de nietige/vernietigde bepaling vervangen door een bepaling die het doel zo dicht mogelijk benadert binnen de grenzen van dwingend recht.\n\nArtikel 3 – Doelgroep, leeftijd en territoriale beschikbaarheid\nDe Opleiding is uitsluitend bedoeld voor Deelnemers van 18 jaar of ouder.\nDe Opleiding wordt niet aangeboden aan personen met woonplaats/verblijf in Duitsland. Indien toch een bestelling vanuit of gericht op Duitsland tot stand komt (bijv. door onjuiste gegevens of omzeiling), mag PCM de bestelling annuleren en toegang blokkeren. In dat geval zal PCM het betaalde bedrag terugbetalen voor zover wettelijk vereist.\nPCM mag toegang (tijdelijk) beperken in andere landen indien dat noodzakelijk is om te voldoen aan wet- en regelgeving of om misbruik, sanctierisico's of compliance-risico's te voorkomen.\n\nArtikel 4 – Totstandkoming van de Overeenkomst\nDe Overeenkomst komt tot stand zodra Deelnemer de bestelling afrondt en de betaling succesvol is verwerkt (via Stripe of een andere door PCM aangewezen betaalprovider), en PCM de bestelling bevestigt of toegang verleent.\nPCM mag een bestelling weigeren of aanvullende verificatie vragen indien daar een redelijke grond voor is, bijvoorbeeld bij vermoeden van fraude, misbruik, onrechtmatig gedrag, chargeback-risico of het verstrekken van onjuiste gegevens.\n\nArtikel 5 – Inhoud van de Opleiding en geen resultaatsgarantie\nPCM levert een online coachopleiding zoals beschreven in het Aanbod.\nPCM levert een inspanningsverbintenis en geeft geen garantie op specifieke resultaten (zoals omzet, cliëntenaantallen, certificering, toelating of beroepsmatige uitkomsten). Resultaten hangen mede af van inzet, context en keuzes van Deelnemer.\nDeelnemer begrijpt dat AI-output probabilistisch is en onjuist of onvolledig kan zijn. PCM garandeert niet dat AI-output foutloos is.\n\nArtikel 6 – Pro Coach Mastery Training en Program\nPCM biedt onder meer de volgende producten (prijzen en exacte inhoud staan in het Aanbod):\nPro Coach Mastery Training: modules, AI-avatar gesprekken, AI-feedback/scoring (binnen limieten) en portfolio-assessments.\nPro Coach Mastery Program: alles uit de Training, plus AI-begeleiding bij coaching van echte cliënten en begeleiding bij portfolio-opbouw (o.a. richting EMCC-traject), zoals nader omschreven in het Aanbod.\nSupervisie/mentorcoaching is niet inbegrepen. Indien supervisie of mentorcoaching vereist is voor een extern traject (zoals EMCC), organiseert Deelnemer dit zelf.\n\nArtikel 7 – Toegang en duur\nNa betaling krijgt Deelnemer in beginsel direct toegang tot het Platform.\nDeelnemer krijgt toegang tot het Platform en de essentiële onderdelen van de Opleiding voor minimaal 3 jaar vanaf de datum van eerste toegang.\nPCM kan toegang na 5 jaar beëindigen. Na afloop van 5 jaar vervalt het recht op toegang, tenzij PCM uitdrukkelijk verlengt.\nToegang is afhankelijk van exploitatie van het Platform door PCM. Indien PCM de exploitatie staakt binnen de minimale toegangstermijn van 3 jaar en geen redelijk alternatief kan bieden, zal PCM een passende oplossing bieden voor zover wettelijk vereist (bijv. evenredige terugbetaling voor het resterende deel van de minimale toegangstermijn).\n\nArtikel 8 – Support (menselijk) en communicatie\nMenselijke support is inbegrepen bij zowel Training als Program, zoals in het Aanbod omschreven.\nSupport verloopt via info@procoachmastery.com en/of via het Platform. PCM streeft naar reactie binnen 2 werkdagen. Dit is een inspanningsverplichting, geen garantie.\nSupport is bedoeld voor vragen over toegang, gebruik en algemene opleidingsvragen. Support is geen medisch, psychologisch, juridisch of financieel advies.\n\nArtikel 9 – Fair use en AI-gebruikslimieten (hard stop)\nOm kwaliteit, stabiliteit en kosten te bewaken hanteert PCM een fair-use beleid.\nPer Deelnemer gelden (totaal over de toegangstermijn), tenzij in het Aanbod anders vermeld:\nAI-avatar: maximaal 2.500 minuten totaal.\nAI totaal: maximaal 5.000 minuten totaal (inclusief AI-avatar).\nBij het bereiken van de limiet stopt de betreffende AI-functionaliteit automatisch (hard stop). Deelnemer behoudt toegang tot de overige onderdelen van de Opleiding binnen de toegangstermijn.\nPCM bepaalt de meetmethode en registreert gebruik in logs.\n\nArtikel 10 – Gebruiksregels, verboden gedrag en handhaving\nDeelnemer gebruikt de Opleiding rechtmatig en zorgvuldig en onthoudt zich van gedrag dat PCM, andere personen of derden kan schaden.\nHet is verboden (niet-limitatief):\naccount/toegang te delen, uit te lenen, door te verkopen of aan derden beschikbaar te stellen;\nlesmateriaal, prompts, video's, audio, templates of AI-output te kopiëren, te verspreiden, te publiceren, te herpubliceren of door te verkopen;\nscreenrecording, opnemen of stream-ripping van (delen van) het Platform, lessen of AI-sessies;\nscraping, reverse engineering, security testing zonder toestemming, of het omzeilen van limieten/technische maatregelen;\nintimidatie, discriminatie, doxxing, haatzaaien, bedreiging of anderszins onrechtmatig gedrag;\nbetalingsfraude of het starten van een evident onterechte chargeback.\nBij (vermoeden van) overtreding mag PCM maatregelen nemen, waaronder waarschuwing, opschorting, beperking of beëindiging van toegang.\n\nArtikel 11 – Gebruik met echte cliënten en gegevens van derden\nIndien Deelnemer de Opleiding toepast in coaching met echte cliënten, is Deelnemer zelf verantwoordelijk voor de coachingrelatie, de inhoud van de coaching en naleving van toepasselijke wet- en regelgeving (waaronder privacyregels).\nDeelnemer voert geen persoonsgegevens van cliënten of andere derden in de AI-functionaliteit in, tenzij Deelnemer daarvoor aantoonbaar gerechtigd is en dit past binnen de privacyverklaring en geldend recht. PCM raadt aan altijd te anonimiseren.\nPCM is niet aansprakelijk voor schade die ontstaat door het gebruik van de Opleiding of AI-output in de praktijk door Deelnemer.\n\nArtikel 12 – Getuigschrift, beoordeling en menselijke herbeoordeling\nDeelnemer kan een getuigschrift ontvangen indien aan de criteria uit het Aanbod/Platform is voldaan.\nAssessments en de getuigschriftbeslissing kunnen (grotendeels) geautomatiseerd plaatsvinden.\nDeelnemer kan binnen 14 dagen na de uitslag een menselijke herbeoordeling aanvragen van de getuigschriftuitkomst. PCM kan daarbij vragen om een korte en concrete onderbouwing.\nPCM streeft ernaar een herbeoordeling binnen 30 dagen af te ronden.\n\nArtikel 13 – Externe certificering en EMCC (geen garantie, geen aansprakelijkheid)\nExterne certificering/erkenning (zoals EMCC) is geen onderdeel van de Overeenkomst met PCM, tenzij uitdrukkelijk schriftelijk anders overeengekomen.\nPCM garandeert niet dat de Opleiding (nu of in de toekomst) voldoet aan eisen van EMCC of dat EMCC een aanvraag accepteert.\nWijzigingen in beleid, criteria, interpretatie, procedures, tarieven of erkenningsmogelijkheden bij EMCC (waaronder een eventuele eis dat opleidingen door mensen gegeven moeten worden) vormen geen tekortkoming van PCM en geven geen recht op schadevergoeding, prijsverlaging of restitutie, behoudens dwingend recht.\nDeelnemer is zelf verantwoordelijk voor het verifiëren van actuele EMCC-eisen en het organiseren van eventuele supervisie/mentorcoaching.\n\nArtikel 14 – Prijzen, btw/CRKBO en facturatie (veilig)\nDe prijs van het gekozen product staat in het Aanbod en in de checkout.\nPCM is CRKBO-geregistreerd. PCM beoogt de btw-onderwijsvrijstelling toe te passen waar dit van toepassing is. De btw-behandeling kan afhankelijk zijn van (i) de aard van de prestatie, (ii) het land van Deelnemer en (iii) toepasselijke regels. De checkout/factuur is leidend.\nIndien een belastingautoriteit of wetgeving aanleiding geeft tot een andere fiscale behandeling, kan PCM dit voor toekomstige verkopen aanpassen. Voor reeds gesloten Overeenkomsten blijven wettelijke consumentenrechten intact.\n\nArtikel 15 – Betaling, chargebacks en incasso\nBetaling verloopt via Stripe of een door PCM aangewezen betaalprovider.\nIndien Deelnemer een chargeback/dispute start, mag PCM de toegang (tijdelijk) opschorten gedurende het onderzoek.\nIndien een chargeback onterecht blijkt of door de betaalprovider in het voordeel van PCM wordt beslist, mag PCM redelijke administratiekosten en aantoonbare externe kosten (zoals dispute-fees) in rekening brengen, voor zover wettelijk toegestaan.\n\nArtikel 16 – Herroepingsrecht (14 dagen) en restitutiebeleid\nDeelnemer heeft als consument het wettelijke herroepingsrecht van 14 dagen bij een overeenkomst op afstand.\nHerroeping kan binnen 14 dagen na het sluiten van de Overeenkomst door een ondubbelzinnige verklaring per e-mail aan info@procoachmastery.com. PCM bevestigt de ontvangst.\nNa herroeping beëindigt PCM de toegang en dient Deelnemer ieder gebruik van het Platform en de Content te staken. Eventuele downloads of kopieën van Content mogen niet (verder) worden gebruikt of verspreid.\nPCM betaalt terug volgens de wettelijke regels en termijnen. Indien en voor zover de wet dit toestaat, kan PCM een evenredige vergoeding in rekening brengen voor reeds geleverde diensten indien Deelnemer uitdrukkelijk om onmiddellijke uitvoering heeft verzocht.\nNa het verstrijken van de herroepingstermijn is restitutie niet mogelijk, behalve wanneer dwingend recht dat verplicht (bijvoorbeeld bij non-conformiteit of andere wettelijke remedies).\n\nArtikel 17 – Annulering/verzetten van gepland contactonderwijs (alleen indien aangeboden)\nDit artikel geldt uitsluitend indien PCM gepland contactonderwijs (menselijke sessies) aanbiedt en Deelnemer daarvoor een tijdslot boekt (al dan niet als add-on).\nAnnuleringsregeling door Deelnemer:\nmeer dan 6 weken voor aanvang: kosteloos;\n6 tot 4 weken voor aanvang: 50% van de waarde van het tijdslot;\n4 tot 2 weken voor aanvang: 75% van de waarde van het tijdslot;\nminder dan 2 weken voor aanvang of no-show: 100% van de waarde van het tijdslot.\nVerzetten binnen 48 uur voor aanvang kan worden geweigerd of als verbruikt worden aangemerkt.\n\nArtikel 18 – Intellectuele eigendom\nAlle intellectuele eigendomsrechten op het Platform en de Content berusten bij PCM of haar licentiegevers.\nDeelnemer ontvangt een beperkt, persoonlijk, niet-overdraagbaar gebruiksrecht voor eigen leerdoeleinden gedurende de toegangstermijn.\nOvertreding (zoals screenrecording, kopiëren/verspreiden of doorverkoop) kwalificeert als ernstige tekortkoming. PCM mag dan toegang onmiddellijk beëindigen en schade en kosten verhalen, voor zover wettelijk toegestaan.\n\nArtikel 19 – Privacy, bewaartermijnen en bewijs\nPCM verwerkt persoonsgegevens conform de privacyverklaring en de AVG.\nPCM kan o.a. verwerken: accountgegevens, betaalstatus, voortgang, scores, (delen van) transcript/AI-interacties, feedbacksamenvattingen en technische logs.\nBewaartermijn: PCM bewaart relevante gegevens in beginsel minimaal 3 jaar en maximaal 5 jaar na einde van de Overeenkomst, tenzij een langere bewaarplicht geldt of langer bewaren noodzakelijk is voor geschillen/claims.\nElektronische communicatie en logs van PCM kunnen als bewijsmiddel dienen, behoudens tegenbewijs.\n\nArtikel 20 – Aansprakelijkheid\nPCM is niet aansprakelijk voor indirecte schade, gevolgschade, gederfde winst of reputatieschade, voor zover wettelijk toegestaan.\nVoor zover PCM aansprakelijk is, is de aansprakelijkheid beperkt tot het door Deelnemer betaalde bedrag voor het betreffende product, tenzij dwingend recht anders bepaalt.\nNiets in deze voorwaarden sluit aansprakelijkheid uit die naar dwingend recht niet kan worden uitgesloten (zoals aansprakelijkheid bij opzet of bewuste roekeloosheid).\n\nArtikel 21 – Overmacht en derden\nPCM is niet gehouden tot nakoming indien sprake is van overmacht, waaronder (niet-limitatief) storingen bij hosting/LLM-providers, netwerkstoringen, cyberincidenten, uitval van betaalproviders of overheidsmaatregelen.\nPCM mag derden inschakelen voor (delen van) de Opleiding. PCM is niet aansprakelijk voor beslissingen of beleidswijzigingen van derden, waaronder externe certificeringsinstanties.\n\nArtikel 22 – Beëindiging en opschorting\nPCM mag de toegang opschorten of beëindigen bij (vermoeden van) fraude, misbruik, schending van deze voorwaarden of onrechtmatig handelen.\nBij beëindiging vervallen toegang en gebruiksrechten onmiddellijk. Voor zover wettelijk toegestaan bestaat geen recht op restitutie bij beëindiging wegens toerekenbare tekortkoming of onrechtmatig handelen door Deelnemer.\n\nArtikel 23 – Toepasselijk recht en bevoegde rechter\nOp de Overeenkomst is Nederlands recht van toepassing.\nGeschillen worden voorgelegd aan de bevoegde rechter te Den Haag, voor zover een forumkeuze jegens consumenten toelaatbaar is. Deelnemer behoudt wettelijke rechten om een geschil ook aan de bevoegde rechter in het eigen woonland voor te leggen indien dwingend recht dat bepaalt.\n\nBijlage 1 – Modelformulier voor herroeping\nDit formulier alleen invullen en terugzenden als u de overeenkomst wilt herroepen.\nAan: ICA Netherlands B.V., Tasmanstraat 131, 2518VM Den Haag, Nederland, info@procoachmastery.com\nIk/Wij* deel/delen* hierbij mede dat ik/wij* onze overeenkomst betreffende de Opleiding herroep/herroepen*.\nBesteld op*/ontvangen op*:\nNaam consument(en):\nAdres consument(en):\nHandtekening consument(en) (alleen indien dit formulier op papier wordt ingediend):\nDatum:\n* Doorhalen wat niet van toepassing is."
+  },
+  "privacy": {
+    "title": "Privacyverklaring",
+    "content": "PRIVACYVERKLARING PRO COACH MASTERY (PCM)\n\nVersie 1.0 – 30-12-2025\n\nOnderneming: ICA Netherlands B.V.\nKvK: 98840126\nBTW-id: NL868665691B01\nAdres: Tasmanstraat 131, 2518VM Den Haag, Nederland\nE-mail: info@procoachmastery.com\nWebsite/Platform: procoachmastery.com en/of het bijbehorende leerplatform\n\nDeze privacyverklaring beschrijft hoe Pro Coach Mastery (PCM) persoonsgegevens verzamelt, gebruikt en beschermt in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG/GDPR).\n\n1. Verantwoordelijke voor de gegevensverwerking\nICA Netherlands B.V., handelend onder de naam Pro Coach Mastery, is de verantwoordelijke voor de verwerking van persoonsgegevens.\n\n2. Welke persoonsgegevens verzamelen wij?\nWij verzamelen en verwerken de volgende categorieën van persoonsgegevens:\n\n2.1 Gegevens die u aan ons verstrekt:\nNaam en e-mailadres (via contactformulier en wachtlijstformulier)\nBerichten die u via het contactformulier verstuurt\nAccountgegevens (bij aanmelding voor de opleiding)\nBetalingsgegevens (via Stripe)\nToestemming voor marketingcommunicatie\n\n2.2 Gegevens die automatisch worden verzameld:\nTechnische logs (IP-adres, browsertype, besturingssysteem)\nGebruiksgegevens (paginaweergaven, klikgedrag)\nVoortgang en scores binnen het leerplatform\n(Delen van) transcript/AI-interacties\nFeedbacksamenvattingen\n\n2.3 Geanonimiseerde gegevens over cliënten:\nIndien u als deelnemer de opleiding toepast met echte cliënten, kunnen geanonimiseerde gegevens over coachinggesprekken worden opgeslagen in het platform voor leerdoeleinden.\n\n3. Doel en rechtsgrondslag van de verwerking\nWij verwerken uw persoonsgegevens voor de volgende doeleinden:\n\n3.1 Uitvoering van de overeenkomst (art. 6 lid 1 sub b AVG):\nLeveren van de online coachopleiding\nAccountbeheer en toegang tot het platform\nVerwerken van betalingen\nOnderwijs, beoordeling en certificering\nSupport en communicatie\n\n3.2 Toestemming (art. 6 lid 1 sub a AVG):\nMarketingcommunicatie per e-mail (indien u hiervoor toestemming heeft gegeven)\nNieuwsbrieven en updates\n\n3.3 Wettelijke verplichting (art. 6 lid 1 sub c AVG):\nBewaren van gegevens voor fiscale en administratieve doeleinden\nNaleving van toepasselijke wet- en regelgeving\n\n3.4 Gerechtvaardigd belang (art. 6 lid 1 sub f AVG):\nVerbeteren van onze diensten en platform\nBeveiliging en fraude preventie\nAnalytics en statistieken (met geanonimiseerde gegevens waar mogelijk)\n\n4. Met wie delen wij uw gegevens?\nWij delen uw persoonsgegevens met de volgende partijen:\n\n4.1 Serviceproviders:\nSupabase (EU): Database en opslag van gegevens\nVercel (EU): Hosting van de website\nHostinger (EU): Hosting en infrastructuur\nStripe (EU): Verwerking van betalingen\nOpenAI (EU): AI-functionaliteiten en verwerking van interacties\nBrevo: E-mailmarketing en nieuwsbrieven\nGoogle Analytics: Website analytics en statistieken\n\n4.2 Gegevensverwerking:\nAl deze partijen verwerken gegevens als verwerker namens PCM en zijn contractueel verplicht om uw gegevens te beschermen en alleen te gebruiken voor de doeleinden waarvoor zij zijn ingeschakeld.\n\n4.3 Wettelijke verplichtingen:\nWij kunnen uw gegevens delen indien dit wettelijk verplicht is of op verzoek van bevoegde autoriteiten.\n\n5. Internationale doorgifte\nUw persoonsgegevens worden verwerkt en opgeslagen binnen de Europese Unie (EU). Alle serviceproviders die wij gebruiken, verwerken gegevens binnen de EU of hebben passende waarborgen getroffen conform de AVG.\n\n6. Bewaartermijnen\nWij bewaren uw persoonsgegevens niet langer dan noodzakelijk:\n\nAccount- en opleidingsgegevens: Minimaal 3 jaar en maximaal 5 jaar na beëindiging van de overeenkomst\nBetalingsgegevens: Conform wettelijke bewaarplichten (meestal 7 jaar)\nMarketingtoestemming: Totdat u uw toestemming intrekt\nTechnische logs: Maximaal 2 jaar\nAnalytics gegevens: Maximaal 26 maanden (Google Analytics standaard)\n\nLanger bewaren kan nodig zijn voor geschillen, claims of wettelijke verplichtingen.\n\n7. Cookies en tracking\nWij gebruiken cookies en vergelijkbare technologieën voor:\n\n7.1 Functionele cookies:\nInlogfunctionaliteit\nPlatformfunctionaliteit\n\n7.2 Analytische cookies:\nGoogle Analytics: Voor het analyseren van websitegebruik en verbeteren van onze diensten\nTracking pixels voor analytics\n\nU kunt cookies beheren via uw browserinstellingen. Let op: het uitschakelen van cookies kan de functionaliteit van het platform beperken.\n\n8. Beveiliging van gegevens\nWij nemen passende technische en organisatorische maatregelen om uw persoonsgegevens te beschermen:\n\nVersleuteling van gegevens in transit en at rest\nToegangsbeperkingen en wachtwoordbeveiliging voor het inlogportal\nRegelmatige beveiligingsaudits\nBeperkte toegang tot persoonsgegevens (alleen voor medewerkers die dit nodig hebben)\n\n9. Uw rechten\nU heeft de volgende rechten met betrekking tot uw persoonsgegevens:\n\n9.1 Recht op inzage (art. 15 AVG):\nU kunt opvragen welke gegevens wij van u verwerken.\n\n9.2 Recht op rectificatie (art. 16 AVG):\nU kunt onjuiste gegevens laten corrigeren.\n\n9.3 Recht op gegevenswissing (art. 17 AVG):\nU kunt verzoeken om verwijdering van uw gegevens, tenzij wij deze moeten bewaren voor wettelijke doeleinden.\n\n9.4 Recht op beperking van verwerking (art. 18 AVG):\nU kunt verzoeken om beperking van de verwerking van uw gegevens.\n\n9.5 Recht op dataportabiliteit (art. 20 AVG):\nU kunt uw gegevens in een gestructureerd formaat ontvangen.\n\n9.6 Recht van bezwaar (art. 21 AVG):\nU kunt bezwaar maken tegen verwerking op grond van gerechtvaardigd belang.\n\n9.7 Recht om toestemming in te trekken:\nU kunt uw toestemming voor marketingcommunicatie te allen tijde intrekken via de uitschrijflink in e-mails of door contact met ons op te nemen.\n\n10. Uitoefenen van uw rechten\nOm uw rechten uit te oefenen, kunt u contact met ons opnemen via:\nE-mail: info@procoachmastery.com\nPost: ICA Netherlands B.V., Tasmanstraat 131, 2518VM Den Haag, Nederland\n\nWij reageren binnen 1 maand op uw verzoek. In complexe gevallen kan dit met maximaal 2 maanden worden verlengd.\n\n11. Klachtrecht\nAls u van mening bent dat wij uw persoonsgegevens niet correct verwerken, heeft u het recht om een klacht in te dienen bij de Autoriteit Persoonsgegevens (AP):\n\nAutoriteit Persoonsgegevens\nPostbus 93374\n2509 AJ Den Haag\nTelefoon: 088 - 1805 250\nWebsite: www.autoriteitpersoonsgegevens.nl\n\n12. Geautomatiseerde besluitvorming\nBinnen het platform kunnen assessments en beoordelingen (grotendeels) geautomatiseerd plaatsvinden. U heeft het recht om binnen 14 dagen na de uitslag een menselijke herbeoordeling aan te vragen (zoals beschreven in de Algemene Voorwaarden, Artikel 12).\n\n13. Wijzigingen in deze privacyverklaring\nWij kunnen deze privacyverklaring van tijd tot tijd aanpassen. Wijzigingen worden gepubliceerd op deze pagina met vermelding van de datum van de laatste wijziging. Bij ingrijpende wijzigingen informeren wij u hierover per e-mail.\n\n14. Contact\nVoor vragen over deze privacyverklaring of de verwerking van uw persoonsgegevens kunt u contact met ons opnemen:\n\nICA Netherlands B.V.\nTasmanstraat 131\n2518VM Den Haag\nNederland\nE-mail: info@procoachmastery.com\n\nLaatste update: 30-12-2025"
+  },
+  "start": {
+    "title": "Start direct jouw leerpad",
+    "subtitle": "De eerste AI-gedreven coachopleiding met directe route naar internationale certificering"
+  },
+  "seo": {
+    "home": {
+      "title": "Pro Coach Mastery - Word internationaal erkend coach. Slimmer, sneller, betaalbaarder dan ooit.",
+      "description": "Leer coachen met realistische AI-avatars én echte cliënten. Bouw direct je portfolio op voor EMCC-certificering – betaalbaar, flexibel en effectief."
+    },
+    "programma": {
+      "title": "Programma - Pro Coach Mastery",
+      "description": "Ontdek het volledige programma: Professional Coach Training met AI-avatars en Professional Coach Certification Program met echte cliënten. Voorbereid op internationale certificering."
+    },
+    "over": {
+      "title": "Over ons - Pro Coach Mastery",
+      "description": "Ontdek waarom Alexander, psycholoog en coachopleider, deze AI-gedreven coachopleiding ontwikkelde. Een haalbare weg naar internationale certificering."
+    },
+    "contact": {
+      "title": "Contact - Pro Coach Mastery",
+      "description": "Heb je vragen over het programma of certificering? Neem contact op met International Coach Academy."
+    }
+  }
+}

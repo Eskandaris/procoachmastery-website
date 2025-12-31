@@ -1,0 +1,148 @@
+{
+  "title": "Positioning and Brand – Pro Coach Mastery",
+  "subtitle": "AI-gedreven coachopleiding richting internationale certificering",
+
+  "hero": {
+    "tagline": "Leer coachen. Slimmer, sneller, persoonlijker.",
+    "subclaim": "De eerste volledig AI-gedreven coachopleiding met officiële route naar internationale certificering (EMCC).",
+    "ctas": [
+      "Start direct jouw leerpad",
+      "Bekijk hoe het werkt"
+    ],
+    "visual": {
+      "description": "Achtergrondvideo met close-ups van mensen in reflectieve momenten (in gesprek, noterend, glimlachend) afgewisseld met AI-interactiebeelden (avatar, interface, grafiek van groei).",
+      "tone": "Helder, warm licht, menselijk + technologisch verweven",
+      "colors": ["#007C7C (teal – vertrouwen)", "#D4AF37 (goud – erkenning)", "wit (ruimte)"]
+    }
+  },
+
+  "promise": "Professioneel leren coachen — op jouw tempo, op jouw manier, met de kwaliteit van de wereldstandaard. Slimmer door intelligente begeleiding. Sneller door directe oefening en reflectie. Persoonlijker door maatwerk dat zich aan jou aanpast. En met internationale erkenning die deuren opent.",
+
+  "psus": [
+    {
+      "title": "Slimmer leren",
+      "claim": "AI die jou leert kennen en laat groeien",
+      "description": "Intelligente, adaptieve begeleiding gebaseerd op internationale coachcompetenties"
+    },
+    {
+      "title": "Sneller groeien",
+      "claim": "Van start tot certificering op jouw tempo",
+      "description": "Versneld leertraject met realistische oefensessies en directe reflectie"
+    },
+    {
+      "title": "Persoonlijk afgestemd",
+      "claim": "De opleiding past zich aan jou aan, niet andersom",
+      "description": "AI stemt inhoud, oefeningen en feedback af op jouw behoeften en proces"
+    },
+    {
+      "title": "Erkend resultaat",
+      "claim": "Leren volgens internationale standaarden (EMCC)",
+      "description": "Portfolio-opbouw en voorbereiding op officiële certificering"
+    },
+    {
+      "title": "Toegankelijke kwaliteit",
+      "claim": "Betaalbaar en volledig online",
+      "description": "Professionele kwaliteit zonder hoge kosten of vaste lestijden"
+    }
+  ],
+
+  "brand_story": "De wereld verandert, en leren veranderen verandert mee. Waar coachopleidingen vroeger traag, duur en locatiegebonden waren, maakt Pro Coach Mastery professioneel leren coachen toegankelijk voor iedereen. Dankzij AI krijg je niet zomaar feedback, maar intelligente begeleiding die zich aan jou aanpast. Je oefent niet alleen met AI, maar ook met levensechte cliënten. Je ontwikkelt je eigen stijl en bouwt een portfolio op dat voldoet aan de eisen van internationale beroepsverenigingen zoals EMCC. Geen wachtlijsten, geen reistijd, geen groepsdruk — alleen jij, je groei, en een leermeester die jou begrijpt. Zo wordt leren coachen wat het altijd had moeten zijn: persoonlijk, professioneel en vrij.",
+
+  "visual_identity": {
+    "colors": {
+      "blue": "#0059FF",
+      "gold": "#D4AF37",
+      "white": "#FFFFFF"
+    },
+    "typography": "Inter / Brandon Grotesque of gelijkwaardig — clean, humanistisch, professioneel",
+    "imagery": "Combinatie van menselijke expressie (authentieke gezichten, aandacht, rust) en digitale verfijning (AI-interfaces, subtiele grafische lagen)",
+    "logo_feel": "Symbool voor groei, verbinding of bewustzijn (lotus, cirkel, pad, lijn die evolueert)"
+  },
+
+  "tone_of_voice": [
+    {
+      "aspect": "Taalniveau",
+      "guideline": "Helder, professioneel, inspirerend",
+      "example": "Leren coachen wordt eenvoudiger dan ooit."
+    },
+    {
+      "aspect": "Emotionele toon",
+      "guideline": "Warm rationeel: vertrouwen + helderheid",
+      "example": "AI die jou begrijpt — en laat groeien."
+    },
+    {
+      "aspect": "Rol van AI",
+      "guideline": "Partner, niet techniek",
+      "example": "AI als leermeester, afgestemd op jou."
+    },
+    {
+      "aspect": "Rol van mens",
+      "guideline": "Leerling én professional",
+      "example": "Jij bepaalt het tempo, de opleiding volgt jou."
+    },
+    {
+      "aspect": "Focuswoord",
+      "guideline": "Ontwikkeling, erkenning, groei, bewustwording",
+      "example": "Je groeit als mens én als coach."
+    }
+  ],
+
+  "social_proof": [
+    "Gebaseerd op EMCC Global Standards",
+    "Inclusief voorbereiding op officiële certificering",
+    "Internationaal erkend leerpad",
+    "Flexibel & volledig online",
+    "Levensechte AI-gesprekken & directe begeleiding"
+  ],
+
+  "messaging": [
+    {
+      "channel": "Website Hero",
+      "message": "Leer coachen. Slimmer, sneller, persoonlijker.",
+      "cta": "Start jouw leerpad"
+    },
+    {
+      "channel": "Video (60s productvideo)",
+      "message": "Een opleiding die jou leert kennen. Die zich aanpast aan jouw groei. En die leidt tot internationale erkenning.",
+      "cta": "Bekijk programma"
+    },
+    {
+      "channel": "Social Ads",
+      "message": "Word erkend coach – met AI als leermeester.",
+      "cta": "Start vandaag"
+    },
+    {
+      "channel": "E-mailcampagne",
+      "message": "Je wilt mensen helpen. Wij helpen jou dat professioneel te doen – snel, slim en erkend.",
+      "cta": "Begin gratis proefmodule"
+    },
+    {
+      "channel": "Pitch / Deck",
+      "message": "De eerste AI-gedreven coachopleiding met directe route naar internationale certificering.",
+      "cta": null
+    }
+  ],
+
+  "positioning_sentence": "Pro Coach Mastery Program is de eerste volwaardige, volledig AI-gedreven coachopleiding die leidt tot internationale certificering — met de intelligentie van AI, de diepte van echte gesprekken en de vrijheid van leren op jouw manier.",
+
+  "core_visual": {
+    "type": "pitch/video",
+    "duration": "60 sec",
+    "script": [
+      "Opening (0–10s) – Close-up van iemand die zegt: 'Ik wilde altijd mensen helpen. Maar waar begin je?'",
+      "AI-actie (10–20s) – Animatie van gesprek met avatar; realtime feedback / reflectie.",
+      "Begeleiding (20–35s) – Voice-over: 'Deze opleiding past zich aan jou aan. Elk gesprek, elke oefening, afgestemd op jouw groei.'",
+      "Erkenning (35–50s) – 'Je bouwt je portfolio op en bereidt je voor op internationale certificering.'",
+      "Slot (50–60s) – 'Leer coachen. Slimmer. Sneller. Persoonlijker.' + logo en CTA."
+    ]
+  },
+
+  "summary": {
+    "positionering": "AI-gedreven opleiding tot erkend coach",
+    "merkbelofte": "Leer coachen. Slimmer, sneller, persoonlijker.",
+    "rationeel_bewijs": "Internationale certificering, AI-begeleiding, maatwerk, toegankelijkheid",
+    "emotionele_belofte": "Vrijheid om te groeien, op jouw manier",
+    "tone_of_voice": "Intelligent, warm, professioneel",
+    "visueel_concept": "Mens & AI leren elkaar kennen"
+  }
+}

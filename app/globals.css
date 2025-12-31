@@ -1,0 +1,1266 @@
+/* Featured pricing badge (center pill) */
+.pricing-card--featured {
+  position: relative !important;
+  padding-top: 2.75rem !important; /* ensure space for pill */
+  border: 1px solid var(--color-primary, #0059FF) !important; /* thin primary border */
+  border-radius: 0.75rem !important; /* match card rounding if needed */
+}
+
+.pricing-card--featured .pricing-badge-wrapper {
+  position: absolute !important;
+  top: -1.5rem !important; /* -24px */
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 30 !important;
+}
+
+.pricing-card--featured .pricing-badge {
+  display: inline-block !important;
+  background-color: var(--color-primary, #0059FF) !important; /* fallback */
+  color: #ffffff !important;
+  padding: 0.25rem 0.75rem !important; /* 4px 12px */
+  border-radius: 9999px !important; /* full pill */
+  font-size: 0.875rem !important; /* text-sm */
+  font-weight: 700 !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12) !important;
+  white-space: nowrap !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Brand colors from guidelines */
+  --color-primary: #0059FF;
+  --color-primary-hover: #0047CC;
+  --color-gold: #D4AF37;
+  --color-gold-hover: #b8941f;
+  --color-white: #ffffff;
+  
+  /* Base colors */
+  --color-background: #f9fafb;
+  --color-text-primary: #111827;
+  --color-text-secondary: #374151;
+  
+  /* Brand gradients */
+  --gradient-primary: linear-gradient(135deg, #f0f4ff 0%, #e6edff 50%, #ccd9ff 100%);
+  --gradient-gold: linear-gradient(135deg, #fefce8 0%, #fef3c7 50%, #fde68a 100%);
+  --gradient-hero: linear-gradient(135deg, #f0f4ff 0%, #e6edff 30%, #ccd9ff 70%, #b3ccff 100%);
+  
+  /* Spacing */
+  --section-padding: 6rem; /* 96px */
+  --container-padding: 1rem; /* 16px */
+  --element-gap: 2rem; /* 32px */
+  --element-gap-large: 3rem; /* 48px */
+  
+  /* Typography */
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  font-size: var(--font-size-lg);
+  font-weight: 400;
+  letter-spacing: -0.01em; /* Slight letter spacing for Inter */
+}
+
+/* Typography - Brand Guidelines */
+h1 {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  color: var(--color-text-primary);
+}
+
+@media (min-width: 640px) {
+  h1 {
+    font-size: var(--font-size-4xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: var(--font-size-5xl);
+  }
+}
+
+h2 {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+  color: var(--color-text-primary);
+}
+
+@media (min-width: 640px) {
+  h2 {
+    font-size: var(--font-size-3xl);
+  }
+}
+
+h3 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary);
+}
+
+/* Paragraph styling */
+p {
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  margin-bottom: 1rem;
+}
+
+/* Large text styling */
+.text-xl {
+  font-size: var(--font-size-xl);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.text-2xl {
+  font-size: var(--font-size-2xl);
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+/* Algemene padding tussen titels en tekst */
+h1 + p,
+h2 + p,
+h3 + p,
+h1 + div,
+h2 + div,
+h3 + div {
+  margin-top: 1.5rem; /* 1.5x groter dan 1rem */
+}
+
+/* Padding voor alle paragrafen na titels */
+h1 ~ p,
+h2 ~ p,
+h3 ~ p {
+  margin-top: 1.125rem; /* 1.5x groter dan 0.75rem */
+}
+
+/* Layout utilities */
+.container {
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Header responsive styles */
+header {
+  width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  background-color: white !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+}
+
+header nav {
+  width: 100% !important;
+  max-width: none !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  padding-top: 0.3125rem !important; /* 5px */
+  padding-bottom: 0.3125rem !important; /* 5px */
+}
+
+header nav > div {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Remove link underlines in header */
+header a {
+  text-decoration: none !important;
+  color: #111827 !important;
+}
+
+header div {
+  text-decoration: none !important;
+  color: #111827 !important;
+}
+
+/* Force all header text to be dark */
+header * {
+  color: #111827 !important;
+}
+
+/* Logo specific styling */
+.logo-text {
+  font-size: 25px !important;
+  font-weight: 700 !important; /* font-bold */
+  color: var(--color-primary) !important;
+}
+
+/* Menu items styling */
+.desktop-navigation div {
+  font-weight: 700 !important; /* font-bold */
+  color: #111827 !important;
+}
+
+/* Navigation links - make them bold */
+.desktop-navigation a {
+  font-weight: 800 !important; /* font-extrabold */
+  color: #111827 !important;
+}
+
+/* Mobile navigation links - make them bold */
+.mobile-menu-items > div > a:not([class*="btn-primary"]):not([class*="bg-primary"]) {
+  font-weight: 800 !important; /* font-extrabold */
+  color: #111827 !important;
+}
+
+/* Header CTA button styling */
+.desktop-actions a {
+  background-color: var(--color-primary) !important;
+  color: var(--color-white) !important;
+  font-size: var(--font-size-lg) !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0.5rem !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+.desktop-actions a:hover {
+  background-color: var(--color-primary-hover) !important;
+  box-shadow: var(--shadow-md) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Mobile CTA button styling */
+.mobile-menu-items a {
+  background-color: var(--color-primary) !important;
+  color: var(--color-white) !important;
+  font-size: var(--font-size-lg) !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0.5rem !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+.mobile-menu-items a:hover {
+  background-color: var(--color-primary-hover) !important;
+  box-shadow: var(--shadow-md) !important;
+  transform: translateY(-1px) !important;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-button {
+    display: none !important;
+  }
+  
+  .desktop-navigation {
+    display: flex !important;
+    gap: 3rem !important;
+  }
+  
+  .desktop-actions {
+    display: flex !important;
+    gap: 2rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-menu-button {
+    display: block !important;
+  }
+  
+  .desktop-navigation {
+    display: none !important;
+  }
+  
+  .desktop-actions {
+    display: none !important;
+  }
+}
+
+.section-padding {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
+/* Hero section padding - rekening houdend met header */
+.hero-section {
+  padding-top: calc(6rem + 4rem); /* 6rem hero padding + 4rem header ruimte */
+  padding-bottom: 6rem; /* 6rem hero padding */
+}
+
+/* Hero section text padding */
+.hero-section h1,
+.hero-section p {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+/* Alle secties met bg-gradient-blue krijgen hero padding */
+section.bg-gradient-blue:first-of-type {
+  padding-top: calc(var(--section-padding) + 4rem + 1.875rem) !important; /* Extra ruimte voor header + 30px */
+  padding-bottom: var(--section-padding) !important;
+}
+
+/* Hero text padding voor eerste gradient sectie */
+section.bg-gradient-blue:first-of-type h1,
+section.bg-gradient-blue:first-of-type p {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+/* Grid layout for hero section */
+.hero-grid {
+  display: grid !important;
+  gap: 3rem !important;
+  align-items: center !important;
+}
+
+@media (min-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.section-padding-sm {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Gradient backgrounds */
+.bg-gradient-primary {
+  background: var(--gradient-primary);
+}
+
+.bg-gradient-blue {
+  background: var(--gradient-hero);
+}
+
+/* Override gradient for non-hero sections - make them white */
+section.bg-gradient-blue:not(.hero-section) {
+  background: #ffffff !important;
+}
+
+.bg-light-gray {
+  background-color: #f9fafb;
+}
+
+/* Force primary background on waitlist sections */
+.waitlist-section {
+  background-color: var(--color-primary) !important;
+  color: var(--color-white) !important;
+}
+
+/* Force white text on all waitlist section elements */
+.waitlist-section h1,
+.waitlist-section h2,
+.waitlist-section h3,
+.waitlist-section h4,
+.waitlist-section h5,
+.waitlist-section h6,
+.waitlist-section p,
+.waitlist-section span,
+.waitlist-section div {
+  color: var(--color-white) !important;
+}
+
+/* Force compact form input padding */
+.waitlist-section input,
+.waitlist-section textarea,
+form input,
+form textarea {
+  padding-top: 6px !important; /* py-1.5 equivalent */
+  padding-bottom: 6px !important; /* py-1.5 equivalent */
+  padding-left: 16px !important; /* px-4 equivalent */
+  padding-right: 16px !important; /* px-4 equivalent */
+  font-size: 1.125rem !important; /* 18px - same as body text */
+  line-height: 1.6 !important; /* Match body line-height */
+}
+
+/* Waitlist section button hover styles */
+.waitlist-section .btn-secondary:hover,
+.waitlist-section button.btn-secondary:hover {
+  background-color: #0001BF !important;
+  color: #ffffff !important; /* wit */
+  border-color: #0001BF !important;
+}
+
+
+/* Enhanced list spacing for better readability - ALL LISTS */
+ul, ol {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+ul li, ol li {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Specific spacing for all list containers */
+.space-y-3 li,
+.space-y-2 li,
+.space-y-4 li,
+.space-y-6 li {
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* Force spacing on all list items regardless of class */
+li {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Spacing between lists and surrounding elements */
+h1 + ul, h1 + ol,
+h2 + ul, h2 + ol,
+h3 + ul, h3 + ol,
+p + ul, p + ol,
+div + ul, div + ol {
+  margin-top: 2rem !important;
+}
+
+ul + p, ol + p,
+ul + div, ol + div,
+ul + h1, ol + h1,
+ul + h2, ol + h2,
+ul + h3, ol + h3 {
+  margin-top: 2rem !important;
+}
+
+/* Override Tailwind spacing classes */
+.space-y-1 > * + *,
+.space-y-3 > * + *,
+.space-y-4 > * + *,
+.space-y-6 > * + *,
+.space-y-8 > * + * {
+  margin-top: 1.5rem !important;
+}
+
+/* space-y-2 should use original Tailwind spacing */
+.space-y-2 > * + * {
+  margin-top: 0.5rem !important; /* 8px - original Tailwind space-y-2 */
+}
+
+/* CTAButton spacing */
+a[class*="px-8"][class*="py-4"],
+button[class*="px-8"][class*="py-4"] {
+  margin-top: 1rem !important; /* 16px */
+  margin-bottom: 1rem !important; /* 16px */
+}
+
+/* space-y-12 should use original Tailwind spacing */
+.space-y-12 > * + * {
+  margin-top: 3rem !important; /* 48px - original Tailwind space-y-12 */
+}
+
+/* Certification section description spacing */
+section.bg-gradient-blue p.text-lg.mb-12 {
+  margin-bottom: 3rem !important; /* 48px */
+}
+
+/* Desire section description spacing */
+section.bg-gradient-blue p.text-lg.mb-12 {
+  margin-bottom: 3rem !important; /* 48px */
+}
+
+/* Enhanced spacing for flex items with icons (Results sections) */
+.flex.items-center {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.flex.items-center:first-child {
+  margin-top: 0 !important;
+}
+
+.flex.items-center:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Waitlist section left column text - larger size */
+.waitlist-section .text-xl {
+  font-size: 1.375rem !important; /* 22px */
+  line-height: 1.5 !important;
+  font-weight: 700 !important; /* Bold */
+}
+
+/* Waitlist text padding - desktop only */
+@media (min-width: 1024px) {
+  .waitlist-section .text-xl {
+    padding-top: 2rem !important; /* 32px - only on large screens */
+  }
+}
+
+/* Alexander image - make 1.5 times smaller with rounded corners and shadow */
+img[src*="alexander.jpg"] {
+  max-width: 66.7% !important; /* 1/1.5 = 0.667 */
+  width: auto !important;
+  height: auto !important;
+  margin: 0 auto !important; /* Center horizontally */
+  display: block !important; /* Ensure margin auto works */
+  border-radius: 0.5rem !important; /* rounded-lg */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important; /* shadow-lg */
+}
+
+/* Solution section grid spacing - extra space between Alexander content and cards */
+.grid.lg\:grid-cols-5.gap-12.items-start.mb-20 {
+  margin-bottom: 5rem !important; /* 80px - extra space */
+}
+
+/* Recognition section cards - extra space between icons and text */
+.recognition-card .flex.justify-center {
+  margin-bottom: 1.5rem !important; /* 24px - extra space */
+}
+
+/* Final CTA description text - add padding above and below */
+section.bg-primary p.text-xl.mb-8.opacity-90 {
+  padding-top: 2rem !important; /* 32px */
+  padding-bottom: 2rem !important; /* 32px */
+}
+
+/* Enhanced checkbox styling - larger and aligned */
+.waitlist-section input[type="checkbox"],
+form input[type="checkbox"] {
+  width: 1.5rem !important; /* 24px - 1.5x larger than default */
+  height: 1.5rem !important; /* 24px - 1.5x larger than default */
+  margin-top: 0 !important;
+  margin-right: 0.75rem !important; /* 12px spacing to text */
+  vertical-align: top !important;
+  transform: translateY(0.125rem) !important; /* Slight adjustment for perfect alignment */
+}
+
+/* Checkbox container alignment */
+.waitlist-section label.flex.items-start,
+form label.flex.items-start {
+  align-items: flex-start !important;
+  gap: 0.75rem !important; /* 12px gap between checkbox and text */
+}
+
+/* Checkbox text alignment */
+.waitlist-section label span,
+form label span {
+  margin-top: 0 !important;
+  padding-top: 0.125rem !important; /* Fine-tune text alignment */
+}
+
+/* Button styles - Brand Guidelines */
+.btn-primary,
+a.btn-primary,
+button.btn-primary,
+a[class*="btn-primary"],
+button[class*="btn-primary"],
+.inline-flex.btn-primary,
+a.inline-flex.btn-primary,
+button.inline-flex.btn-primary {
+  background-color: var(--color-primary) !important;
+  color: var(--color-white) !important;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+a.btn-primary:hover,
+button.btn-primary:hover,
+a[class*="btn-primary"]:hover,
+button[class*="btn-primary"]:hover,
+.inline-flex.btn-primary:hover,
+a.inline-flex.btn-primary:hover,
+button.inline-flex.btn-primary:hover {
+  background-color: var(--color-primary-hover) !important;
+  color: var(--color-white) !important;
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(0, 1, 191, 0.05);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.btn-gold {
+  background-color: var(--color-gold);
+  color: var(--color-white);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-gold:hover {
+  background-color: var(--color-gold-hover);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-transparent:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+/* Card styles - Brand Guidelines */
+.card {
+  background-color: var(--color-white);
+  border-radius: 0.75rem;
+  box-shadow: var(--shadow-md);
+  padding: 2rem;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(0, 1, 191, 0.1);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.card-gradient {
+  background: var(--gradient-primary);
+  border-radius: 0.75rem;
+  box-shadow: var(--shadow-md);
+  padding: 2rem;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(0, 1, 191, 0.2);
+}
+
+.card-gradient:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.card-gold {
+  background: var(--gradient-gold);
+  border-radius: 0.75rem;
+  box-shadow: var(--shadow-md);
+  padding: 2rem;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.card-gold:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+/* Focus states for accessibility - Brand Guidelines */
+.focus-ring {
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.focus-ring:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(0, 1, 191, 0.1);
+}
+
+/* Enhanced focus states for interactive elements */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(0, 1, 191, 0.1);
+}
+
+/* Skip to content link */
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.skip-link:focus {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 50;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  box-shadow: var(--shadow-md);
+}
+
+
+/* Sticky CTA - Brand Guidelines */
+.sticky-cta {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 40;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-lg);
+  transition: all 0.2s ease;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.sticky-cta:hover {
+  background-color: var(--color-primary-hover);
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-2px);
+}
+
+/* Responsive grid patterns */
+.grid-responsive {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid-responsive {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-responsive {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.grid-responsive-2 {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .grid-responsive-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Animation utilities */
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Dark mode overrides - keeping light background for conversions */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+  }
+}
+
+/* Footer styling - expliciete donkere achtergrond */
+footer {
+  background-color: #003380 !important;
+  color: white !important;
+  padding-top: 4rem !important; /* py-16 */
+  padding-bottom: 4rem !important; /* py-16 */
+}
+
+footer .container {
+  padding-top: 2rem !important; /* Extra ruimte boven content */
+  padding-bottom: 2rem !important; /* Extra ruimte onder content */
+}
+
+footer * {
+  color: white !important;
+}
+
+footer h3 {
+  color: var(--color-gold) !important;
+  margin-bottom: 1.5rem !important;
+}
+
+footer p {
+  color: #d1d5db !important; /* text-gray-300 */
+  margin-bottom: 1rem !important; /* Ruimte onder paragrafen */
+}
+
+footer .text-gray-400 {
+  color: #9ca3af !important;
+}
+
+/* Footer font sizes - consistent voor alle elementen */
+footer .container > div[class*="grid"] > div {
+  font-size: 0.875rem !important; /* 14px */
+  line-height: 1.2 !important;
+}
+
+footer .container > div[class*="grid"] > div * {
+  font-size: inherit !important;
+  line-height: 1.2 !important;
+}
+
+footer .container > div[class*="grid"] > div h3 {
+  font-size: 0.9375rem !important; /* 15px - iets groter dan tekst */
+  line-height: 1.2 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+footer .container > div[class*="grid"] > div p {
+  font-size: 0.875rem !important; /* 14px */
+  line-height: 1.2 !important;
+  margin-bottom: 0 !important;
+}
+
+footer .container > div[class*="grid"] > div a {
+  font-size: 0.875rem !important; /* 14px */
+  line-height: 1.2 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Footer grid layout */
+footer .container > div[class*="grid"] {
+  display: grid !important;
+  gap: 2rem !important;
+}
+
+@media (min-width: 768px) {
+  footer .container > div[class*="grid"] {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  footer .container > div[class*="grid"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Primary buttons - Primary brand color */
+a.bg-primary.text-white:not(.desktop-actions a):not(.mobile-menu-items a),
+button.bg-primary.text-white:not(.desktop-actions button):not(.mobile-menu-items button) {
+  background-color: var(--color-primary) !important;
+  color: var(--color-white) !important;
+  font-size: var(--font-size-lg) !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0.5rem !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  box-shadow: var(--shadow-sm) !important;
+  border: none !important;
+}
+
+a.bg-primary.text-white:hover,
+button.bg-primary.text-white:hover {
+  background-color: var(--color-primary-hover) !important;
+  box-shadow: var(--shadow-md) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Secondary buttons - White with primary border */
+a[class*="bg-white"][class*="text-primary"]:not(.desktop-actions a):not(.mobile-menu-items a),
+button[class*="bg-white"][class*="text-primary"]:not(.desktop-actions button):not(.mobile-menu-items button),
+a.bg-white.text-primary:not(.desktop-actions a):not(.mobile-menu-items a),
+button.bg-white.text-primary:not(.desktop-actions button):not(.mobile-menu-items button),
+a.bg-white.text-primary.border-2:not(.desktop-actions a):not(.mobile-menu-items a),
+button.bg-white.text-primary.border-2:not(.desktop-actions button):not(.mobile-menu-items button),
+a.bg-white.text-primary.border-primary:not(.desktop-actions a):not(.mobile-menu-items a),
+button.bg-white.text-primary.border-primary:not(.desktop-actions button):not(.mobile-menu-items button) {
+  background-color: var(--color-white) !important;
+  color: var(--color-primary) !important;
+  border: 2px solid var(--color-primary) !important;
+  font-size: var(--font-size-lg) !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0.5rem !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+a[class*="bg-white"][class*="text-primary"]:hover,
+button[class*="bg-white"][class*="text-primary"]:hover,
+a.bg-white.text-primary:hover,
+button.bg-white.text-primary:hover,
+a.bg-white.text-primary.border-2:hover,
+button.bg-white.text-primary.border-2:hover,
+a.bg-white.text-primary.border-primary:hover,
+button.bg-white.text-primary.border-primary:hover {
+  background-color: rgba(0, 1, 191, 0.05) !important;
+  box-shadow: var(--shadow-md) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Universal secondary button selector */
+a[href*="waitlist-form"],
+button[onclick*="waitlist"] {
+  background-color: var(--color-white) !important;
+  color: var(--color-primary) !important;
+  border: 2px solid var(--color-primary) !important;
+  font-size: var(--font-size-lg) !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0.5rem !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+a[href*="waitlist-form"]:hover,
+button[onclick*="waitlist"]:hover {
+  background-color: rgba(0, 1, 191, 0.05) !important;
+  box-shadow: var(--shadow-md) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Button containers - twee buttons naast elkaar */
+.flex.flex-col.sm\\:flex-row.gap-4.justify-center {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1rem !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+@media (min-width: 640px) {
+  .flex.flex-col.sm\\:flex-row.gap-4.justify-center {
+    flex-direction: row !important;
+    gap: 1rem !important;
+  }
+}
+
+/* Alternatieve selector voor button containers */
+div[class*="flex"][class*="gap-4"][class*="justify-center"] {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1rem !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+@media (min-width: 640px) {
+  div[class*="flex"][class*="gap-4"][class*="justify-center"] {
+    flex-direction: row !important;
+    gap: 1rem !important;
+  }
+}
+
+/* Authority section grid layout - expliciete CSS */
+.grid.lg\\:grid-cols-3,
+div[class*="grid"][class*="lg:grid-cols-3"] {
+  display: grid !important;
+  gap: 3rem !important;
+  align-items: start !important;
+}
+
+@media (min-width: 1024px) {
+  .grid.lg\\:grid-cols-3,
+  div[class*="grid"][class*="lg:grid-cols-3"] {
+    grid-template-columns: 1fr 2fr !important; /* 1/3 foto, 2/3 tekst */
+  }
+}
+
+@media (max-width: 1023px) {
+  .grid.lg\\:grid-cols-3,
+  div[class*="grid"][class*="lg:grid-cols-3"] {
+    grid-template-columns: 1fr !important; /* Onder elkaar op mobile */
+  }
+}
+
+.lg\\:col-span-1,
+div[class*="lg:col-span-1"] {
+  grid-column: span 1 !important;
+}
+
+.lg\\:col-span-2,
+div[class*="lg:col-span-2"] {
+  grid-column: span 2 !important;
+}
+
+@media (max-width: 1023px) {
+  .lg\\:col-span-1,
+  .lg\\:col-span-2,
+  div[class*="lg:col-span-1"],
+  div[class*="lg:col-span-2"] {
+    grid-column: span 1 !important; /* Volledige breedte op mobile */
+  }
+}
+
+/* Universele grid fix voor authority sectie */
+div[class*="grid"][class*="gap-12"][class*="items-start"] {
+  display: grid !important;
+  gap: 3rem !important;
+  align-items: start !important;
+}
+
+@media (min-width: 1024px) {
+  div[class*="grid"][class*="gap-12"][class*="items-start"] {
+    grid-template-columns: 1fr 2fr !important; /* 1/3 foto, 2/3 tekst */
+  }
+}
+
+@media (max-width: 1023px) {
+  div[class*="grid"][class*="gap-12"][class*="items-start"] {
+    grid-template-columns: 1fr !important; /* Onder elkaar op mobile */
+  }
+}
+
+/* Authority sectie foto - 2/3 van huidige grootte */
+div[class*="lg:col-span-1"] img,
+.lg\\:col-span-1 img {
+  width: 66.67% !important; /* 2/3 van de huidige grootte */
+  height: auto !important;
+  max-width: 66.67% !important;
+  margin: 0 auto !important; /* Centreer de foto */
+  display: block !important;
+}
+
+/* Enhanced UX improvements */
+
+/* Smooth scrolling for better UX */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* Account for fixed header */
+}
+
+/* Improved form styling */
+input, textarea, select {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-lg);
+  border: 2px solid rgba(0, 1, 191, 0.2);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s ease;
+  background-color: var(--color-white);
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(0, 1, 191, 0.1);
+  outline: none;
+}
+
+/* Enhanced link styling */
+a {
+  text-decoration: none !important;
+}
+
+a:not(.btn-primary):not(.btn-secondary):not(.btn-gold):not(.btn-transparent) {
+  color: var(--color-primary);
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+a:not(.btn-primary):not(.btn-secondary):not(.btn-gold):not(.btn-transparent):hover {
+  color: var(--color-primary-hover);
+  text-decoration: none;
+}
+
+/* Utility classes for primary color */
+.text-primary {
+  color: var(--color-primary) !important;
+}
+
+.hover\:text-primary:hover {
+  color: var(--color-primary) !important;
+}
+
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+/* Loading states */
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Success states */
+.success {
+  color: var(--color-primary);
+  background-color: rgba(0, 1, 191, 0.1);
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+/* Error states */
+.error {
+  color: #dc2626;
+  background-color: rgba(220, 38, 38, 0.1);
+  border: 1px solid #dc2626;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+/* Enhanced spacing system */
+.spacing-xs { margin: 0.5rem; }
+.spacing-sm { margin: 1rem; }
+.spacing-md { margin: 1.5rem; }
+.spacing-lg { margin: 2rem; }
+.spacing-xl { margin: 3rem; }
+
+/* Improved responsive typography */
+@media (max-width: 640px) {
+  h1 { font-size: var(--font-size-2xl); }
+  h2 { font-size: var(--font-size-xl); }
+  h3 { font-size: var(--font-size-lg); }
+  p { font-size: var(--font-size-base); }
+}
+
+/* Enhanced mobile experience */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .card {
+    padding: 1.5rem;
+  }
+  
+  .btn-primary, .btn-secondary, .btn-gold, .btn-transparent {
+    padding: 0.875rem 1.25rem;
+    font-size: var(--font-size-base);
+  }
+}
+
+/* Print styles */
+@media print {
+  .sticky-cta,
+  .mobile-menu-button,
+  .desktop-actions {
+    display: none !important;
+  }
+  
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+  
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+}

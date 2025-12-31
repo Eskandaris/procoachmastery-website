@@ -1,0 +1,443 @@
+{
+  "nav": {
+    "home": "home",
+    "programma": "program",
+    "over": "about",
+    "contact": "contact",
+    "cta": "Sign up"
+  },
+    "hero": {
+      "title": "Become an internationally recognized coach. Smarter, faster, more personal than ever.",
+      "subtitle": "Learn coaching with realistic AI avatars and real clients. Build your portfolio directly for EMCC certification – flexible, effective and affordable.",
+      "primaryCta": "Sign up",
+      "secondaryCta": "See how it works"
+    },
+  "benefits": {
+    "title": "What this program offers you",
+    "slimmer": {
+      "title": "Smarter learning",
+      "description": "AI that gets to know you and lets you grow"
+    },
+    "sneller": {
+      "title": "Faster growth",
+      "description": "From start to certification at your pace"
+    },
+    "persoonlijk": {
+      "title": "Personally tailored",
+      "description": "The training adapts to you, not the other way around"
+    },
+    "erkend": {
+      "title": "Recognized result",
+      "description": "Learning according to international standards (EMCC)"
+    },
+    "toegankelijk": {
+      "title": "Proven quality",
+      "description": "Developed by psychologist with years of expertise as coach trainer"
+    },
+    "betaalbaar": {
+      "title": "Affordable path",
+      "description": "A fraction of the price of traditional training programs"
+    }
+  },
+  "results": {
+    "title": "What you achieve with this program",
+    "zekerheid": "Confidence in your coaching conversations through dozens of hours of practice with avatars and clients.",
+    "portfolio": "A complete portfolio that you can use directly for international certification.",
+    "vrijheid": "Freedom to grow, your way — without waiting lists, travel time or group pressure."
+  },
+  "testimonials": {
+    "title": "What participants say",
+    "lisa": {
+      "name": "Lisa, HR Manager",
+      "quote": "I never thought practicing with AI would feel so real. It gave me the courage to work with real clients."
+    },
+    "karim": {
+      "name": "Karim, independent coach",
+      "quote": "The portfolio I built during the training was exactly what I needed to apply for EMCC Practitioner."
+    },
+    "sophie": {
+      "name": "Sophie, team coach",
+      "quote": "The freedom to learn when I want, combined with real clients in the second phase, gave me a flying start as a coach."
+    }
+  },
+  "authority": {
+    "title": "Built on experience and quality",
+    "description": "I am Alexander, psychologist and founder of De Academie voor Integrale Coaching en Therapie and the International Coach Academy. I wrote a management book about happiness and fourteen articles in professional journals about coaching and development of people and organizations. For decades I have been training professional coaches. As a psychologist, coach, supervisor and trainer, I have seen what works – and what doesn't.",
+    "solution": "Many coach training programs are expensive, inflexible and difficult to access. That's why I developed this program: a training that is personal, practice-oriented and achievable. So you can find your way to international certification faster, more flexibly and more affordably.",
+    "standards": "Based on international standards (EMCC)",
+    "portfolio": "Portfolio directly usable for certification",
+    "experience": "Developed from decades of experience in psychology and coaching"
+  },
+  "finalCta": {
+    "title": "Take the first step today towards your future as a coach",
+    "description": "This training gives you the skills, experience and portfolio to be recognized as a coach. But more importantly: you develop yourself into someone who actually makes an impact in the lives of others.",
+    "primaryCta": "Discover the program",
+    "secondaryCta": "Sign up now"
+  },
+  "waitlist": {
+    "title": "Sign up for the waiting list",
+    "description": "Do you also want to become a professional coach quickly and easily? Sign up for the waitlist and be the first to be informed.",
+    "name": "Name",
+    "email": "Email",
+    "note": "Note (optional)",
+    "consent": "I give permission to receive updates by email. <a href=\"/en/algemene-voorwaarden\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline font-semibold\">Terms and Conditions</a>",
+    "submit": "Sign up",
+    "successTitle": "You're on the waiting list!",
+    "successBody": "Thank you. We'll keep you updated.",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Enter a valid email address",
+    "consentRequired": "You must give permission to receive updates"
+  },
+  "programma": {
+    "hero": {
+      "title": "Learn coaching. Smarter, faster, more personal. Fully online, according to international standards.",
+      "subtitle": "The first fully AI-driven coach training that prepares you for international certification (EMCC). Train with realistic AI avatars, build your portfolio with real clients and grow into a certified professional.",
+      "primaryCta": "Sign up now",
+      "secondaryCta": "View prices"
+    },
+    "intro": {
+      "title": "The fastest and most complete route to professional certification",
+      "description1": "You don't learn coaching from a book — you learn it by doing. That's why the Pro Coach Mastery Program combines the power of artificial intelligence with real practical experience. The program consists of the following modules:",
+      "description2": "In Professional Coach Training you train safely with realistic AI avatars, receive direct feedback and build the core skills of professional coaching. Then, in Professional Coach Certification Program you work with real clients, compile your portfolio and prepare for international certification at EMCC.",
+      "cta": "Discover how it works"
+    },
+    "advantages": {
+      "title": "Why choose PCMP",
+      "online": "Fully online and flexible",
+      "onlineDesc": "Study where and when you want.",
+      "avatars": "Realistic AI avatars",
+      "avatarsDesc": "Practice conversations that feel like real practice.",
+      "portfolio": "Portfolio building from day one",
+      "portfolioDesc": "Everything you do counts towards certification.",
+      "aligned": "According to EMCC standards",
+      "alignedDesc": "Learn according to the international standards of the profession.",
+      "phases": "Growth path in two phases",
+      "phasesDesc": "From basic competencies to professional mastery.",
+      "feedback": "Direct feedback",
+      "feedbackDesc": "Know after each conversation exactly what you do well and where you grow."
+    },
+    "pathway": {
+      "title": "A clear route to your certification",
+      "training": {
+        "title": "Professional Coach Training",
+        "description": "First, you learn all the core skills of professional coaching in a safe digital environment. Thanks to realistic avatars, you practice conversations, receive direct feedback and develop your coaching competencies step by step."
+      },
+      "certification": {
+        "title": "Professional Coach Certification Program",
+        "description": "Then you work with real clients, gain practical experience, supplement your portfolio with reflections and supervision, and prepare specifically for certification at the international professional association for coaches of your choice."
+      },
+      "disclaimer": "Note: we do not certify ourselves. After Pro Coach Mastery Program you can directly <a href=\"https://accreditation.emccshop.org/product-category/eia\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline font-semibold\">apply for EMCC certification</a> at your desired level as a professional coach.",
+      "cta": "View the program in detail"
+    },
+    "pillars": {
+      "title": "The 8 pillars of professional mastery",
+      "pillar1": {
+        "title": "Understanding Your Self",
+        "goal": "You know your values, beliefs and patterns, work out boundaries and role clarity and align your actions with the context and goals of client/sponsor.",
+        "modules": [
+          "Coaching mindset & self-awareness",
+          "Presence in the moment",
+          "Ethical & professional behavior"
+        ],
+        "result": "Stable professional presence, congruence and ethical sensitivity."
+      },
+      "pillar2": {
+        "title": "Commitment to professional development",
+        "goal": "You continuously improve your craftsmanship through reflection, feedback, supervision and evidence-based work.",
+        "modules": [
+          "Quality development & reflection",
+          "Ethical & professional behavior"
+        ],
+        "result": "Demonstrable growth in competencies and a sustainable learning and reflection rhythm."
+      },
+      "pillar3": {
+        "title": "Contract management",
+        "goal": "You make expectations, goals, roles and boundaries explicit and maintain the contract throughout the coaching (incl. sponsor where relevant).",
+        "modules": [
+          "Contracting & structuring the process",
+          "Context-, system- & organization dimension"
+        ],
+        "result": "Clarity and progress through well-contracted goals, evaluation moments and re-contracting."
+      },
+      "pillar4": {
+        "title": "Relationship building",
+        "goal": "You build a safe, equal working relationship with attention to trust, power/dynamics and cultural sensitivity.",
+        "modules": [
+          "Trust, safety & equality",
+          "Active listening & advanced perception",
+          "Diversity, power & conflict handling"
+        ],
+        "result": "Psychological safety and effective working alliance."
+      },
+      "pillar5": {
+        "title": "Facilitating insight & learning",
+        "goal": "You elicit insight, perspective shifts and meaning-making that actually leads to learning.",
+        "modules": [
+          "Awareness & learning evocation",
+          "Active listening & advanced perception"
+        ],
+        "result": "Noticeable increase in self-awareness and learning outcomes of sessions."
+      },
+      "pillar6": {
+        "title": "Result- & action-oriented work",
+        "goal": "You translate insight into achievable goals, experiments and behavior change; you ensure transfer to practice.",
+        "modules": [
+          "Growth, action & anchoring",
+          "Contracting & structuring the process"
+        ],
+        "result": "Concrete behavior, visible results and anchored change."
+      },
+      "pillar7": {
+        "title": "Use of models & techniques",
+        "goal": "You choose and apply appropriate models, interventions and communication techniques aligned with goal and context.",
+        "modules": [
+          "Models, methods & techniques",
+          "Context-, system- & organization dimension"
+        ],
+        "result": "Goal-oriented, situationally appropriate interventions that accelerate learning."
+      },
+      "pillar8": {
+        "title": "Evaluation",
+        "goal": "You measure effectiveness, monitor progress and build a culture of evaluation.",
+        "modules": [
+          "Quality development & reflection",
+          "Growth, action & anchoring"
+        ],
+        "result": "Transparent outcome measurement, strong portfolio evidence and continuous improvement."
+      }
+    },
+    "workflow": {
+      "title": "How becoming a professional coach with AI works in practice",
+      "step1": {
+        "title": "Step 1: Professional Coach Training",
+        "features": [
+          "Realistic conversations with AI avatars",
+          "Two-pane viewer: left your assignments, right your conversation",
+          "Direct, objective feedback",
+          "Automatic storage in your portfolio"
+        ]
+      },
+      "step2": {
+        "title": "Step 2: Professional Coach Certification Program",
+        "features": [
+          "Guidance in portfolio building",
+          "Working with real clients",
+          "Reflections, reports & supervision",
+          "Personal guidance and preparation for certification"
+        ]
+      }
+    },
+    "certification": {
+      "title": "Prepared for international certification",
+      "description": "After completing Professional Coach Training you master the core skills of coaching. After Professional Coach Certification Program you have a complete portfolio with everything needed for certification at EMCC.<br /><br />Below you can see the <a href=\"#pricing\" class=\"text-primary hover:underline font-semibold\">prices</a>. In addition, you have costs for self-organized supervision (approximately €200), certification at EMCC (approximately €200) and EMCC membership (€150 per year).",
+      "features": [
+        "Complete portfolio according to international guidelines",
+        "Practical experience with real clients",
+        "Ready for certification"
+      ]
+    },
+    "socialProof": {
+      "title": "What participants say",
+      "anna": {
+        "name": "Anna, trainee coach",
+        "quote": "The avatars were so realistic that I forgot they weren't real clients."
+      },
+      "david": {
+        "name": "David, career coach",
+        "quote": "The portfolio from Professional Coach Certification Program was exactly what I needed to apply for EMCC Practitioner."
+      },
+      "sophie": {
+        "name": "Sophie, team coach",
+        "quote": "The combination of own pace in Professional Coach Training and real clients in Professional Coach Certification Program gave me a flying start."
+      }
+    },
+    "practical": {
+      "title": "Everything you need to know",
+      "duration": {
+        "label": "Duration",
+        "value": "Average 6–12 months (3–6 per phase)"
+      },
+      "access": {
+        "label": "Access",
+        "value": "Immediately after payment, fully online"
+      },
+      "language": {
+        "label": "Language",
+        "value": "Dutch or English"
+      },
+      "requirements": {
+        "label": "Entry requirements",
+        "value": "No specific prior education, but motivation and basic level English/Dutch"
+      },
+      "support": {
+        "label": "Support",
+        "value": "Via email or contact form"
+      },
+      "supervision": {
+        "label": "Supervision",
+        "value": "To be organized yourself (additional costs)"
+      }
+    },
+    "pricing": {
+      "title": "Choose your route",
+      "training": {
+        "title": "Professional Coach Training",
+        "description": "All modules, AI avatars, feedback and automatic portfolio storage, so you master the core competencies of professional coaching.",
+        "price": "€ 1.800",
+        "introPrice": "€750,-",
+        "introPriceLabel": "Introductory price",
+        "cta": "Sign up"
+      },
+      "certification": {
+        "title": "Professional Coach Certification Program",
+        "description": "Everything from Professional Coach Training, plus AI guidance in coaching real clients and portfolio building for certification at EMCC.",
+        "price": "€ 3.000",
+        "introPrice": "€1250,-",
+        "introPriceLabel": "Introductory price",
+        "cta": "Sign up",
+        "badge": "Most popular"
+      },
+      "disclaimer": "* See Registration for current prices."
+    },
+    "finalCta": {
+      "title": "Take the first step today towards your certification",
+      "description": "The first fully AI-driven coach training is ready for you. Start with Professional Coach Training and grow to Professional Coach Certification Program — your route to international recognition as a coach.",
+      "primaryCta": "Sign up now",
+      "secondaryCta": "Contact us"
+    }
+  },
+  "over": {
+    "hero": {
+      "title": "Your desire to really help others further deserves a clear path",
+      "subtitle": "Whether you want to become a coach or deepen your existing experience: you're looking for a path that is achievable, recognized and meaningful. This training is there to give you that path.",
+      "cta": "Sign up"
+    },
+    "recognition": {
+      "title": "Do you recognize this?",
+      "situation1": "You feel you want to mean more in your conversations, but lack structure and skills.",
+      "situation2": "You want to seriously work on coaching, but the high costs and waiting times of traditional training programs hold you back.",
+      "situation3": "You're looking for a training that doesn't just offer theory, but really prepares you for practice and international certification."
+    },
+    "desire": {
+      "title": "What you're actually looking for",
+      "description": "Deep down you long for:",
+      "vakmanschap": "Craftsmanship – conducting coaching conversations with confidence and competence.",
+      "erkenning": "Recognition – a training that prepares you for EMCC certification.",
+      "weg": "An achievable path – affordable, flexible and fitting your life now."
+    },
+    "solution": {
+      "title": "Why I do this",
+      "training": {
+        "title": "Realistic training",
+        "description": "Realistic training: practicing with AI avatars that respond like real clients."
+      },
+      "portfolio": {
+        "title": "Portfolio building",
+        "description": "Portfolio building: everything you need to apply for your certification."
+      },
+      "practice": {
+        "title": "Step into practice",
+        "description": "Step into practice: guidance in coaching practice clients through your AI trainer."
+      }
+    },
+    "founder": {
+      "title": "Why I do this",
+      "description1": "I am Alexander, psychologist.",
+      "description2": "For decades I have worked as a psychologist, coach and mainly as a coach trainer – and therefore know what works, and what doesn't.",
+      "description3": "I wrote a management book about happiness and published fourteen articles in professional journals about coaching and development of people and organizations. Everything I've learned, I bundle in this program – so your development as a coach and as a person is lifted to the highest level."
+    },
+    "results": {
+      "title": "What this gives you",
+      "zekerheid": "Confidence in your conversations through dozens of hours of practice with avatars and clients.",
+      "portfolio": "A complete portfolio that aligns with EMCC standards.",
+      "weg": "An achievable, affordable and meaningful path to a future as a recognized coach."
+    },
+    "finalCta": {
+      "title": "Your path to certification and craftsmanship starts here",
+      "description": "This training gives you everything you need to be recognized as a coach. But more importantly: you develop yourself into someone who actually makes an impact in the lives of others.",
+      "primaryCta": "Discover the program",
+      "secondaryCta": "Sign up now"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Do you have questions? Feel free to contact us.",
+      "subtitle": "For example if you have a technical question, or want to know more about how certification at the international professional associations works."
+    },
+    "form": {
+      "title": "Ask your question",
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "submit": "Send",
+      "success": "Thanks for your message, we'll respond as soon as possible.",
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "messageRequired": "Message is required"
+    },
+    "info": {
+      "title": "Contact",
+      "company": "International Coach Academy",
+      "address": "Tasmanstraat 131",
+      "postal": "2518 VM Den Haag",
+      "kvk": "KvK 98840126",
+      "email": "info@procoachmastery.com"
+    }
+  },
+  "footer": {
+    "column1": {
+      "title": "Pro Coach Mastery",
+      "description": "The first fully AI-driven coach training that prepares you for international certification.",
+      "copyright": "© {{CURRENT_YEAR}} Pro Coach Mastery. All rights reserved."
+    },
+    "column2": {
+      "title": "Contact",
+      "company": "International Coach Academy",
+      "address": "Tasmanstraat 131",
+      "postal": "2518 VM Den Haag",
+      "email": "info@procoachmastery.com"
+    },
+    "column3": {
+      "title": "Information",
+      "kvk": "KvK 98840126",
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy",
+      "login": "Member Login"
+    }
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "content": "TERMS AND CONDITIONS PRO COACH MASTERY (PCM)\n\nVersion 1.2 – December 30, 2025\n\nCompany: ICA Netherlands B.V.\nKvK: 98840126\nVAT-id: NL868665691B01\nAddress: Tasmanstraat 131, 2518VM Den Haag, Netherlands\nEmail: info@procoachmastery.com\nWebsite/Platform: procoachmastery.com and/or the associated learning platform\n\nThese terms and conditions are drawn up for delivery to consumers (B2C). Mandatory consumer law always applies.\n\nArticle 1 – Definitions\nIn these terms and conditions, the following is understood:\nPCM: ICA Netherlands B.V., operating under the name Pro Coach Mastery.\nParticipant/You: the natural person (18+) who takes the training for purposes outside his/her business or professional activity.\nAgreement: the distance agreement between PCM and Participant regarding participation in the Training.\nTraining: the online coach training of PCM, delivered via the Platform and consisting of digital learning content (modules), AI functionalities (including AI avatar) and portfolio assessments, as described in the Offer.\nPlatform: the digital learning environment of PCM (or on behalf of PCM) in which the Training is offered.\nOffer: the product page/checkout description that applied at the time of ordering.\nProducts: Pro Coach Mastery Training and Pro Coach Mastery Program (as described in the Offer).\nAI functionality: (semi)automated functions that can generate feedback, role play, scoring, suggestions and/or (draft) assessments.\nAI minute: a usage unit for AI functionality measured by PCM.\nCertificate: the participation/completion certificate that PCM can issue based on the criteria in the Offer/Platform.\nEMCC: European Mentoring and Coaching Council or a successor/affiliated organization that can offer (external) certification/recognition.\n\nArticle 2 – Applicability\nThese terms and conditions apply to every Offer and every Agreement between PCM and Participant.\nDeviations only apply if PCM explicitly confirms these in writing.\nIf a provision is null or voidable, the remaining provisions remain in effect. PCM will replace the null/voided provision with a provision that comes as close as possible to the purpose within the limits of mandatory law.\n\nArticle 3 – Target group, age and territorial availability\nThe Training is exclusively intended for Participants aged 18 or older.\nThe Training is not offered to persons with residence/stay in Germany. If an order from or directed to Germany nevertheless comes about (e.g. due to incorrect data or circumvention), PCM may cancel the order and block access. In that case, PCM will refund the amount paid insofar as legally required.\nPCM may (temporarily) restrict access in other countries if this is necessary to comply with laws and regulations or to prevent abuse, sanction risks or compliance risks.\n\nArticle 4 – Formation of the Agreement\nThe Agreement is formed as soon as Participant completes the order and payment is successfully processed (via Stripe or another payment provider designated by PCM), and PCM confirms the order or grants access.\nPCM may refuse an order or request additional verification if there is a reasonable ground for this, for example in case of suspicion of fraud, abuse, unlawful conduct, chargeback risk or providing incorrect data.\n\nArticle 5 – Content of the Training and no result guarantee\nPCM delivers an online coach training as described in the Offer.\nPCM delivers a best-efforts commitment and gives no guarantee on specific results (such as revenue, client numbers, certification, admission or professional outcomes). Results also depend on effort, context and choices of Participant.\nParticipant understands that AI output is probabilistic and may be incorrect or incomplete. PCM does not guarantee that AI output is error-free.\n\nArticle 6 – Pro Coach Mastery Training and Program\nPCM offers, among others, the following products (prices and exact content are in the Offer):\nPro Coach Mastery Training: modules, AI avatar conversations, AI feedback/scoring (within limits) and portfolio assessments.\nPro Coach Mastery Program: everything from the Training, plus AI guidance in coaching real clients and guidance in portfolio building (including towards EMCC trajectory), as further described in the Offer.\nSupervision/mentor coaching is not included. If supervision or mentor coaching is required for an external trajectory (such as EMCC), Participant organizes this themselves.\n\nArticle 7 – Access and duration\nAfter payment, Participant will in principle receive immediate access to the Platform.\nParticipant receives access to the Platform and the essential components of the Training for a minimum of 3 years from the date of first access.\nPCM may terminate access after 5 years. After 5 years, the right to access expires, unless PCM explicitly extends.\nAccess depends on operation of the Platform by PCM. If PCM discontinues operation within the minimum access period of 3 years and cannot offer a reasonable alternative, PCM will provide an appropriate solution insofar as legally required (e.g. proportional refund for the remaining part of the minimum access period).\n\nArticle 8 – Support (human) and communication\nHuman support is included with both Training and Program, as described in the Offer.\nSupport is provided via info@procoachmastery.com and/or via the Platform. PCM strives to respond within 2 business days. This is a best-efforts obligation, not a guarantee.\nSupport is intended for questions about access, use and general training questions. Support is not medical, psychological, legal or financial advice.\n\nArticle 9 – Fair use and AI usage limits (hard stop)\nTo maintain quality, stability and costs, PCM applies a fair-use policy.\nPer Participant, the following applies (total over the access period), unless stated otherwise in the Offer:\nAI avatar: maximum 2,500 minutes total.\nAI total: maximum 5,000 minutes total (including AI avatar).\nUpon reaching the limit, the relevant AI functionality automatically stops (hard stop). Participant retains access to the other components of the Training within the access period.\nPCM determines the measurement method and records usage in logs.\n\nArticle 10 – Usage rules, prohibited behavior and enforcement\nParticipant uses the Training lawfully and carefully and refrains from behavior that may harm PCM, other persons or third parties.\nIt is prohibited (non-exhaustive):\nto share, lend, resell or make available to third parties account/access;\nto copy, distribute, publish, republish or resell learning materials, prompts, videos, audio, templates or AI output;\nscreen recording, recording or stream ripping of (parts of) the Platform, lessons or AI sessions;\nscraping, reverse engineering, security testing without permission, or circumventing limits/technical measures;\nintimidation, discrimination, doxxing, hate speech, threats or otherwise unlawful conduct;\npayment fraud or initiating an evidently incorrect chargeback.\nIn case of (suspected) violation, PCM may take measures, including warning, suspension, restriction or termination of access.\n\nArticle 11 – Use with real clients and data of third parties\nIf Participant applies the Training in coaching with real clients, Participant is themselves responsible for the coaching relationship, the content of the coaching and compliance with applicable laws and regulations (including privacy rules).\nParticipant does not enter personal data of clients or other third parties into the AI functionality, unless Participant is demonstrably entitled to do so and this fits within the privacy statement and applicable law. PCM recommends always anonymizing.\nPCM is not liable for damage that arises from the use of the Training or AI output in practice by Participant.\n\nArticle 12 – Certificate, assessment and human reassessment\nParticipant can receive a certificate if the criteria from the Offer/Platform have been met.\nAssessments and the certificate decision can (largely) take place automatically.\nParticipant can request a human reassessment of the certificate outcome within 14 days after the result. PCM may ask for a brief and concrete substantiation.\nPCM strives to complete a reassessment within 30 days.\n\nArticle 13 – External certification and EMCC (no guarantee, no liability)\nExternal certification/recognition (such as EMCC) is not part of the Agreement with PCM, unless explicitly agreed otherwise in writing.\nPCM does not guarantee that the Training (now or in the future) meets EMCC requirements or that EMCC accepts an application.\nChanges in policy, criteria, interpretation, procedures, rates or recognition possibilities at EMCC (including a possible requirement that training must be provided by humans) do not constitute a shortcoming of PCM and do not give rise to compensation, price reduction or restitution, except for mandatory law.\nParticipant is themselves responsible for verifying current EMCC requirements and organizing any supervision/mentor coaching.\n\nArticle 14 – Prices, VAT/CRKBO and invoicing (secure)\nThe price of the chosen product is in the Offer and in the checkout.\nPCM is CRKBO-registered. PCM aims to apply the VAT education exemption where applicable. The VAT treatment may depend on (i) the nature of the service, (ii) the country of Participant and (iii) applicable rules. The checkout/invoice is leading.\nIf a tax authority or legislation gives rise to a different tax treatment, PCM can adjust this for future sales. For already concluded Agreements, legal consumer rights remain intact.\n\nArticle 15 – Payment, chargebacks and collection\nPayment is processed via Stripe or a payment provider designated by PCM.\nIf Participant initiates a chargeback/dispute, PCM may (temporarily) suspend access during the investigation.\nIf a chargeback proves incorrect or is decided in favor of PCM by the payment provider, PCM may charge reasonable administrative costs and demonstrable external costs (such as dispute fees), insofar as legally permitted.\n\nArticle 16 – Right of withdrawal (14 days) and refund policy\nParticipant has as a consumer the legal right of withdrawal of 14 days for a distance agreement.\nWithdrawal can be made within 14 days after concluding the Agreement by an unambiguous statement by email to info@procoachmastery.com. PCM confirms receipt.\nAfter withdrawal, PCM terminates access and Participant must stop all use of the Platform and Content. Any downloads or copies of Content may not be (further) used or distributed.\nPCM refunds according to legal rules and terms. If and insofar as the law permits, PCM may charge a proportional fee for services already provided if Participant has explicitly requested immediate execution.\nAfter the withdrawal period has expired, refund is not possible, except when mandatory law requires this (for example in case of non-conformity or other legal remedies).\n\nArticle 17 – Cancellation/rescheduling of planned contact education (only if offered)\nThis article only applies if PCM offers planned contact education (human sessions) and Participant books a time slot for this (whether or not as an add-on).\nCancellation policy by Participant:\nmore than 6 weeks before start: free of charge;\n6 to 4 weeks before start: 50% of the value of the time slot;\n4 to 2 weeks before start: 75% of the value of the time slot;\nless than 2 weeks before start or no-show: 100% of the value of the time slot.\nRescheduling within 48 hours before start may be refused or considered as used.\n\nArticle 18 – Intellectual property\nAll intellectual property rights on the Platform and Content rest with PCM or its licensors.\nParticipant receives a limited, personal, non-transferable right of use for own learning purposes during the access period.\nViolation (such as screen recording, copying/distributing or reselling) qualifies as a serious shortcoming. PCM may then immediately terminate access and recover damage and costs, insofar as legally permitted.\n\nArticle 19 – Privacy, retention periods and evidence\nPCM processes personal data in accordance with the privacy statement and GDPR.\nPCM may process, among others: account data, payment status, progress, scores, (parts of) transcript/AI interactions, feedback summaries and technical logs.\nRetention period: PCM retains relevant data in principle for a minimum of 3 years and a maximum of 5 years after the end of the Agreement, unless a longer retention obligation applies or longer retention is necessary for disputes/claims.\nElectronic communication and logs from PCM can serve as evidence, subject to counter-evidence.\n\nArticle 20 – Liability\nPCM is not liable for indirect damage, consequential damage, lost profit or reputational damage, insofar as legally permitted.\nInsofar as PCM is liable, liability is limited to the amount paid by Participant for the relevant product, unless mandatory law provides otherwise.\nNothing in these terms and conditions excludes liability that cannot be excluded under mandatory law (such as liability in case of intent or conscious recklessness).\n\nArticle 21 – Force majeure and third parties\nPCM is not obliged to perform if there is force majeure, including (non-exhaustive) disruptions at hosting/LLM providers, network disruptions, cyber incidents, failure of payment providers or government measures.\nPCM may engage third parties for (parts of) the Training. PCM is not liable for decisions or policy changes of third parties, including external certification bodies.\n\nArticle 22 – Termination and suspension\nPCM may suspend or terminate access in case of (suspected) fraud, abuse, violation of these terms and conditions or unlawful conduct.\nUpon termination, access and usage rights expire immediately. Insofar as legally permitted, there is no right to restitution upon termination due to attributable shortcoming or unlawful conduct by Participant.\n\nArticle 23 – Applicable law and competent court\nDutch law applies to the Agreement.\nDisputes are submitted to the competent court in The Hague, insofar as a forum choice towards consumers is permissible. Participant retains legal rights to also submit a dispute to the competent court in their own country of residence if mandatory law so provides.\n\nAppendix 1 – Model form for withdrawal\nOnly fill in and return this form if you wish to withdraw from the agreement.\nTo: ICA Netherlands B.V., Tasmanstraat 131, 2518VM Den Haag, Netherlands, info@procoachmastery.com\nI/We* hereby notify* that I/we* withdraw/withdraw* our agreement regarding the Training.\nOrdered on*/received on*:\nName of consumer(s):\nAddress of consumer(s):\nSignature of consumer(s) (only if this form is submitted on paper):\nDate:\n* Cross out what does not apply."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "content": "PRIVACY POLICY PRO COACH MASTERY (PCM)\n\nVersion 1.0 – December 30, 2025\n\nCompany: ICA Netherlands B.V.\nKvK: 98840126\nVAT-id: NL868665691B01\nAddress: Tasmanstraat 131, 2518VM Den Haag, Netherlands\nEmail: info@procoachmastery.com\nWebsite/Platform: procoachmastery.com and/or the associated learning platform\n\nThis privacy policy describes how Pro Coach Mastery (PCM) collects, uses and protects personal data in accordance with the General Data Protection Regulation (GDPR).\n\n1. Data Controller\nICA Netherlands B.V., operating under the name Pro Coach Mastery, is the data controller for the processing of personal data.\n\n2. What personal data do we collect?\nWe collect and process the following categories of personal data:\n\n2.1 Data you provide to us:\nName and email address (via contact form and waitlist form)\nMessages you send via the contact form\nAccount data (when registering for the training)\nPayment data (via Stripe)\nConsent for marketing communications\n\n2.2 Data collected automatically:\nTechnical logs (IP address, browser type, operating system)\nUsage data (page views, click behavior)\nProgress and scores within the learning platform\n(Parts of) transcript/AI interactions\nFeedback summaries\n\n2.3 Anonymized data about clients:\nIf you as a participant apply the training with real clients, anonymized data about coaching conversations may be stored in the platform for learning purposes.\n\n3. Purpose and legal basis for processing\nWe process your personal data for the following purposes:\n\n3.1 Performance of contract (Art. 6(1)(b) GDPR):\nDelivering the online coach training\nAccount management and access to the platform\nProcessing payments\nEducation, assessment and certification\nSupport and communication\n\n3.2 Consent (Art. 6(1)(a) GDPR):\nMarketing communications by email (if you have given consent for this)\nNewsletters and updates\n\n3.3 Legal obligation (Art. 6(1)(c) GDPR):\nRetention of data for tax and administrative purposes\nCompliance with applicable laws and regulations\n\n3.4 Legitimate interest (Art. 6(1)(f) GDPR):\nImproving our services and platform\nSecurity and fraud prevention\nAnalytics and statistics (with anonymized data where possible)\n\n4. Who do we share your data with?\nWe share your personal data with the following parties:\n\n4.1 Service providers:\nSupabase (EU): Database and data storage\nVercel (EU): Website hosting\nHostinger (EU): Hosting and infrastructure\nStripe (EU): Payment processing\nOpenAI (EU): AI functionalities and processing of interactions\nBrevo: Email marketing and newsletters\nGoogle Analytics: Website analytics and statistics\n\n4.2 Data processing:\nAll these parties process data as processors on behalf of PCM and are contractually obligated to protect your data and only use it for the purposes for which they are engaged.\n\n4.3 Legal obligations:\nWe may share your data if this is legally required or upon request from competent authorities.\n\n5. International transfers\nYour personal data is processed and stored within the European Union (EU). All service providers we use process data within the EU or have implemented appropriate safeguards in accordance with the GDPR.\n\n6. Retention periods\nWe do not retain your personal data longer than necessary:\n\nAccount and training data: Minimum 3 years and maximum 5 years after termination of the agreement\nPayment data: In accordance with legal retention obligations (usually 7 years)\nMarketing consent: Until you withdraw your consent\nTechnical logs: Maximum 2 years\nAnalytics data: Maximum 26 months (Google Analytics default)\n\nLonger retention may be necessary for disputes, claims or legal obligations.\n\n7. Cookies and tracking\nWe use cookies and similar technologies for:\n\n7.1 Functional cookies:\nLogin functionality\nPlatform functionality\n\n7.2 Analytical cookies:\nGoogle Analytics: For analyzing website usage and improving our services\nTracking pixels for analytics\n\nYou can manage cookies through your browser settings. Note: disabling cookies may limit the functionality of the platform.\n\n8. Data security\nWe take appropriate technical and organizational measures to protect your personal data:\n\nEncryption of data in transit and at rest\nAccess restrictions and password protection for the login portal\nRegular security audits\nLimited access to personal data (only for employees who need it)\n\n9. Your rights\nYou have the following rights regarding your personal data:\n\n9.1 Right of access (Art. 15 GDPR):\nYou can request which data we process about you.\n\n9.2 Right to rectification (Art. 16 GDPR):\nYou can have incorrect data corrected.\n\n9.3 Right to erasure (Art. 17 GDPR):\nYou can request deletion of your data, unless we must retain it for legal purposes.\n\n9.4 Right to restriction of processing (Art. 18 GDPR):\nYou can request restriction of the processing of your data.\n\n9.5 Right to data portability (Art. 20 GDPR):\nYou can receive your data in a structured format.\n\n9.6 Right to object (Art. 21 GDPR):\nYou can object to processing based on legitimate interest.\n\n9.7 Right to withdraw consent:\nYou can withdraw your consent for marketing communications at any time via the unsubscribe link in emails or by contacting us.\n\n10. Exercising your rights\nTo exercise your rights, you can contact us via:\nEmail: info@procoachmastery.com\nPost: ICA Netherlands B.V., Tasmanstraat 131, 2518VM Den Haag, Netherlands\n\nWe respond within 1 month to your request. In complex cases, this may be extended by a maximum of 2 months.\n\n11. Right to lodge a complaint\nIf you believe that we do not process your personal data correctly, you have the right to lodge a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens):\n\nAutoriteit Persoonsgegevens\nP.O. Box 93374\n2509 AJ Den Haag\nThe Netherlands\nPhone: +31 88 - 1805 250\nWebsite: www.autoriteitpersoonsgegevens.nl\n\n12. Automated decision-making\nWithin the platform, assessments and evaluations can (largely) take place automatically. You have the right to request a human reassessment within 14 days after the result (as described in the Terms and Conditions, Article 12).\n\n13. Changes to this privacy policy\nWe may adjust this privacy policy from time to time. Changes will be published on this page with indication of the date of the last change. In case of significant changes, we will inform you by email.\n\n14. Contact\nFor questions about this privacy policy or the processing of your personal data, you can contact us:\n\nICA Netherlands B.V.\nTasmanstraat 131\n2518VM Den Haag\nNetherlands\nEmail: info@procoachmastery.com\n\nLast updated: December 30, 2025"
+  },
+  "start": {
+    "title": "Start directly with Pro Coach Mastery Program",
+    "subtitle": "Your route to international recognition as a coach"
+  },
+  "seo": {
+    "home": {
+      "title": "Pro Coach Mastery - Become an internationally recognized coach. Smarter, faster, more personal than ever.",
+      "description": "Learn coaching with realistic AI avatars and real clients. Build your portfolio directly for EMCC certification – flexible, effective and affordable."
+    },
+    "programma": {
+      "title": "Program - Pro Coach Mastery",
+      "description": "Discover the complete program: Professional Coach Training with AI avatars and Professional Coach Certification Program with real clients. Prepared for international certification."
+    },
+    "over": {
+      "title": "About us - Pro Coach Mastery",
+      "description": "Discover why Alexander, psychologist and coach trainer, developed this AI-driven coach training. An achievable path to international certification."
+    },
+    "contact": {
+      "title": "Contact - Pro Coach Mastery",
+      "description": "Do you have questions about the program or certification? Contact International Coach Academy."
+    }
+  }
+}

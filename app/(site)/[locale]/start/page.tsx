@@ -2,13 +2,14 @@ import { getMessages, Locale } from '@/lib/i18n';
 import { WaitlistForm } from '@/components/WaitlistForm';
 
 interface StartPageProps {
-  params: {
+  params: Promise<{
     locale: Locale;
-  };
+  }>;
 }
 
-export default function StartPage({ params }: StartPageProps) {
-  const messages = getMessages(params.locale);
+export default async function StartPage({ params }: StartPageProps) {
+  const { locale } = await params;
+  const messages = getMessages(locale);
 
   return (
     <>

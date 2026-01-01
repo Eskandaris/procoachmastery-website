@@ -14,8 +14,8 @@ export function Header({ pathname }: HeaderProps) {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
-      <nav className="w-full px-4 md:px-8 py-1">
-        <div className="w-full flex justify-between items-center">
+      <nav className="w-full max-w-full px-4 md:px-8 py-1">
+        <div className="w-full max-w-full flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href={createLocalizedPath('/', currentLocale)} className="logo-text">
@@ -60,7 +60,7 @@ export function Header({ pathname }: HeaderProps) {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center">
             <MobileMenu messages={messages} />
           </div>
         </div>

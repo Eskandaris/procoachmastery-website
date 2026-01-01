@@ -24,7 +24,8 @@ export function MobileMenu({ messages }: MobileMenuProps) {
     <>
       {/* Mobile Menu Button */}
       <button
-        className="mobile-menu-button md:hidden p-2 rounded-md text-primary hover:bg-blue-50 transition-colors"
+        className="mobile-menu-button md:hidden p-2 rounded-md transition-colors"
+        style={{ color: 'var(--color-primary)' }}
         onClick={toggleMobileMenu}
         aria-label="Toggle mobile menu"
       >
@@ -57,12 +58,12 @@ export function MobileMenu({ messages }: MobileMenuProps) {
         <>
           {/* Backdrop */}
           <div 
-            className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"
+            className="fixed inset-0 bg-black bg-opacity-50 z-[60] md:hidden"
             onClick={() => setIsMobileMenuOpen(false)}
           />
           
           {/* Mobile Menu */}
-          <div className="mobile-menu-items md:hidden fixed top-0 right-0 h-full w-64 bg-white shadow-lg z-50 overflow-y-auto transform transition-transform duration-300 ease-in-out">
+          <div className="mobile-menu-items md:hidden fixed top-0 right-0 h-full w-64 bg-white shadow-lg z-[70] overflow-y-auto transform transition-transform duration-300 ease-in-out">
             <div className="p-6 space-y-6">
               {/* Close button */}
               <div className="flex justify-between items-center mb-4">
@@ -125,7 +126,9 @@ export function MobileMenu({ messages }: MobileMenuProps) {
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
                   Taal / Language
                 </label>
-                <LocaleSwitcher />
+                <div style={{ color: '#111827' }}>
+                  <LocaleSwitcher />
+                </div>
               </div>
 
               {/* CTA Button */}

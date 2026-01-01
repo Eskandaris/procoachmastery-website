@@ -197,7 +197,7 @@ header {
 
 header nav {
   width: 100% !important;
-  max-width: none !important;
+  max-width: 100% !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
   padding-top: 0.3125rem !important; /* 5px */
@@ -206,7 +206,7 @@ header nav {
 
 header nav > div {
   width: 100% !important;
-  max-width: none !important;
+  max-width: 100% !important;
 }
 
 /* Remove link underlines in header */
@@ -223,6 +223,11 @@ header div {
 /* Force all header text to be dark */
 header * {
   color: #111827 !important;
+}
+
+/* Fix mobile menu button visibility and color */
+.mobile-menu-button {
+  color: var(--color-primary) !important;
 }
 
 /* Logo specific styling */
@@ -313,6 +318,9 @@ header * {
 @media (max-width: 767px) {
   .mobile-menu-button {
     display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: var(--color-primary) !important;
   }
   
   .desktop-navigation {
@@ -322,6 +330,11 @@ header * {
   .desktop-actions {
     display: none !important;
   }
+}
+
+/* Ensure mobile menu has higher z-index than header */
+.mobile-menu-items {
+  z-index: 70 !important;
 }
 
 .section-padding {

@@ -25,7 +25,14 @@ export function MobileMenu({ messages }: MobileMenuProps) {
       {/* Mobile Menu Button */}
       <button
         className="mobile-menu-button md:hidden p-2 rounded-md transition-colors"
-        style={{ color: 'var(--color-primary)' }}
+        style={{ 
+          color: 'var(--color-primary)',
+          display: 'block',
+          visibility: 'visible',
+          opacity: 1,
+          position: 'relative',
+          zIndex: 1
+        }}
         onClick={toggleMobileMenu}
         aria-label="Toggle mobile menu"
       >
@@ -34,6 +41,7 @@ export function MobileMenu({ messages }: MobileMenuProps) {
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
+          style={{ color: 'var(--color-primary)', stroke: 'var(--color-primary)' }}
         >
           {isMobileMenuOpen ? (
             <path

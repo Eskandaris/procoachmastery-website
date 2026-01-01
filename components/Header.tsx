@@ -14,7 +14,7 @@ export function Header({ pathname }: HeaderProps) {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
-      <nav className="w-full px-8 py-1">
+      <nav className="w-full px-4 md:px-8 py-1">
         <div className="w-full flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0">
@@ -59,8 +59,10 @@ export function Header({ pathname }: HeaderProps) {
             </CTAButton>
           </div>
 
-          {/* Mobile Menu */}
-          <MobileMenu messages={messages} />
+          {/* Mobile Menu Button */}
+          <div className="md:hidden">
+            <MobileMenu messages={messages} />
+          </div>
         </div>
       </nav>
     </header>

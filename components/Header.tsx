@@ -13,9 +13,9 @@ export function Header({ pathname }: HeaderProps) {
   const messages = getMessages(currentLocale);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm" style={{ width: '100vw' }}>
-      <nav className="w-full px-4 md:px-8 py-1" style={{ width: '100%', maxWidth: '100%' }}>
-        <div className="w-full flex justify-between items-center" style={{ width: '100%', maxWidth: '100%' }}>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
+      <nav className="w-full px-8 py-1">
+        <div className="w-full flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href={createLocalizedPath('/', currentLocale)} className="logo-text">
@@ -59,10 +59,8 @@ export function Header({ pathname }: HeaderProps) {
             </CTAButton>
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
-            <MobileMenu messages={messages} />
-          </div>
+          {/* Mobile Menu */}
+          <MobileMenu messages={messages} />
         </div>
       </nav>
     </header>

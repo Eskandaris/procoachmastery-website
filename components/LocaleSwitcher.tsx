@@ -18,12 +18,12 @@ export function LocaleSwitcher() {
       <select
         value={currentLocale}
         onChange={(e) => switchLocale(e.target.value)}
-        className="w-full bg-white border border-gray-300 rounded-lg px-3 py-2 text-sm font-medium text-gray-900 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
+        className="bg-transparent border border-gray-300 rounded-lg px-3 py-2 text-sm focus-ring"
         aria-label="Select language"
       >
         {locales.map((locale) => (
           <option key={locale} value={locale}>
-            {locale === 'nl' ? 'Nederlands' : 'English'}
+            {locale.toUpperCase()}
           </option>
         ))}
       </select>

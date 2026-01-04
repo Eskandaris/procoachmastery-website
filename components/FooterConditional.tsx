@@ -17,3 +17,4 @@ export function FooterConditional({ locale }: FooterConditionalProps) {
   return <Footer locale={locale} />;
 }
 
+
